@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="4523px" preserveAspectRatio="none" style="width:4615px;height:4523px;background:#FFFFFF;" version="1.1" viewBox="0 0 4615 4523" width="4615px" zoomAndPan="magnify"><defs/><g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><g id="elem_Client"><rect codeLine="9" fill="#F1F1F1" height="504.3125" id="Client" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="497" x="3580" y="7"/><ellipse cx="3804.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3807.7188,28.6406 Q3807.1406,28.9375 3806.5,29.0781 Q3805.8594,29.2344 3805.1563,29.2344 Q3802.6563,29.2344 3801.3281,27.5938 Q3800.0156,25.9375 3800.0156,22.8125 Q3800.0156,19.6875 3801.3281,18.0313 Q3802.6563,16.375 3805.1563,16.375 Q3805.8594,16.375 3806.5,16.5313 Q3807.1563,16.6875 3807.7188,16.9844 L3807.7188,19.7031 Q3807.0938,19.125 3806.5,18.8594 Q3805.9063,18.5781 3805.2813,18.5781 Q3803.9375,18.5781 3803.25,19.6563 Q3802.5625,20.7188 3802.5625,22.8125 Q3802.5625,24.9063 3803.25,25.9844 Q3803.9375,27.0469 3805.2813,27.0469 Q3805.9063,27.0469 3806.5,26.7813 Q3807.0938,26.5 3807.7188,25.9219 L3807.7188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="3825.25" y="27.8467">Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="3581" x2="4076" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="3586" y="55.9951">-username : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="3586" y="72.292">-password : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="3586" y="88.5889">-name : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="3586" y="104.8857">-number : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="3586" y="121.1826">-email : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="3586" y="137.4795">-creditCard : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="446" x="3586" y="153.7764">-myUpcomingAppointments : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="406" x="3586" y="170.0732">-myPastAppointments : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="273" x="3586" y="186.3701">-myFavoriteBarbers : ArrayList&lt;Barber&gt;</text><line style="stroke:#181818;stroke-width:0.5;" x1="3581" x2="4076" y1="193.6719" y2="193.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3586" y="210.667">+getName() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="3586" y="226.9639">+getUsername() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="3586" y="243.2607">+getPassword() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="3586" y="259.5576">+getNumber() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="3586" y="275.8545">+getEmail() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="3586" y="292.1514">+getCreditCard() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="485" x="3586" y="308.4482">+getMyUpcomingAppointments() : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="445" x="3586" y="324.7451">+getMyPastAppointments() : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="312" x="3586" y="341.042">+getMyFavoriteBarbers() : ArrayList&lt;Barber&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="447" x="3586" y="357.3389">+addAppointment(String, String, String, String, String, float) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="459" x="3586" y="373.6357">+removeAppointmentConfirmed(String, String, String, String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="235" x="3586" y="389.9326">+addFavoriteBarber(Barber) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="3586" y="406.2295">+removeFavoriteBarber(Barber) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="3586" y="422.5264">+setUsername(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="3586" y="438.8232">+setPassword(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="3586" y="455.1201">+setName(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="3586" y="471.417">+setNumber(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="3586" y="487.7139">+setEmail(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="3586" y="504.0107">+setCreditCard(String) : void</text></g><!--MD5=[85212abbc386ac0e6257a12f00ba2fca]
+class Barber--><g id="elem_Barber"><rect codeLine="41" fill="#F1F1F1" height="602.0938" id="Barber" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="499" x="1397" y="611"/><ellipse cx="1619.25" cy="627" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1622.2188,632.6406 Q1621.6406,632.9375 1621,633.0781 Q1620.3594,633.2344 1619.6563,633.2344 Q1617.1563,633.2344 1615.8281,631.5938 Q1614.5156,629.9375 1614.5156,626.8125 Q1614.5156,623.6875 1615.8281,622.0313 Q1617.1563,620.375 1619.6563,620.375 Q1620.3594,620.375 1621,620.5313 Q1621.6563,620.6875 1622.2188,620.9844 L1622.2188,623.7031 Q1621.5938,623.125 1621,622.8594 Q1620.4063,622.5781 1619.7813,622.5781 Q1618.4375,622.5781 1617.75,623.6563 Q1617.0625,624.7188 1617.0625,626.8125 Q1617.0625,628.9063 1617.75,629.9844 Q1618.4375,631.0469 1619.7813,631.0469 Q1620.4063,631.0469 1621,630.7813 Q1621.5938,630.5 1622.2188,629.9219 L1622.2188,632.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1639.75" y="631.8467">Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="1398" x2="1895" y1="643" y2="643"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1403" y="659.9951">-username : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1403" y="676.292">-password : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1403" y="692.5889">-name : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1403" y="708.8857">-address : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="1403" y="725.1826">-experienceLevel : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1403" y="741.4795">-specialization : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="376" x="1403" y="757.7764">-myAppointments : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="344" x="1403" y="774.0732">-myAvailability : ArrayList&lt;AppointmentAvailability&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="1403" y="790.3701">-myReviews : ArrayList&lt;Review&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="1403" y="806.667">-ratingList : ArrayList&lt;Integer&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="1403" y="822.9639">-rating : float</text><line style="stroke:#181818;stroke-width:0.5;" x1="1398" x2="1895" y1="830.2656" y2="830.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1403" y="847.2607">+getName() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="1403" y="863.5576">+getUsername() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1403" y="879.8545">+getPassword() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1403" y="896.1514">+getAddress() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="1403" y="912.4482">+getExperienceLevel() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="1403" y="928.7451">+getSpecialization() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="415" x="1403" y="945.042">+getMyAppointments() : ArrayList&lt;AppointmentConfirmed&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="383" x="1403" y="961.3389">+getMyAvailability() : ArrayList&lt;AppointmentAvailability&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="1403" y="977.6357">+getMyReviews() : ArrayList&lt;Review&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="1403" y="993.9326">+getRating() : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="378" x="1403" y="1010.2295">+addAvailability(String, String, String, String, float) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="447" x="1403" y="1026.5264">+addAppointment(String, String, String, String, String, float) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="1403" y="1042.8232">+addReview(int, String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="487" x="1403" y="1059.1201">+removeAppointmentConfirmed(String, String, String, String) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="484" x="1403" y="1075.417">+removeAppointmentAvailability(String, String, String, String) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="380" x="1403" y="1091.7139">+markAppointed(String, String, String, String) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="458" x="1403" y="1108.0107">+editAppointmentAvailability(String, String, String, String) : boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="1403" y="1124.3076">+setUsername(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="1403" y="1140.6045">+setPassword(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="1403" y="1156.9014">+setName(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1403" y="1173.1982">+setAddress(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="1403" y="1189.4951">+setExperienceLevel(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="1403" y="1205.792">+setSpecialization(String) : void</text></g><!--MD5=[fa2ba553041459d5aea1c25f112087a1]
+class AppointmentAvailability--><g id="elem_AppointmentAvailability"><rect codeLine="79" fill="#F1F1F1" height="292.4531" id="AppointmentAvailability" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="2494" y="2065"/><ellipse cx="2509" cy="2081" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2511.9688,2086.6406 Q2511.3906,2086.9375 2510.75,2087.0781 Q2510.1094,2087.2344 2509.4063,2087.2344 Q2506.9063,2087.2344 2505.5781,2085.5938 Q2504.2656,2083.9375 2504.2656,2080.8125 Q2504.2656,2077.6875 2505.5781,2076.0313 Q2506.9063,2074.375 2509.4063,2074.375 Q2510.1094,2074.375 2510.75,2074.5313 Q2511.4063,2074.6875 2511.9688,2074.9844 L2511.9688,2077.7031 Q2511.3438,2077.125 2510.75,2076.8594 Q2510.1563,2076.5781 2509.5313,2076.5781 Q2508.1875,2076.5781 2507.5,2077.6563 Q2506.8125,2078.7188 2506.8125,2080.8125 Q2506.8125,2082.9063 2507.5,2083.9844 Q2508.1875,2085.0469 2509.5313,2085.0469 Q2510.1563,2085.0469 2510.75,2084.7813 Q2511.3438,2084.5 2511.9688,2083.9219 L2511.9688,2086.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="2523" y="2085.8467">AppointmentAvailability</text><line style="stroke:#181818;stroke-width:0.5;" x1="2495" x2="2682" y1="2097" y2="2097"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="2500" y="2113.9951">-Day : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="2500" y="2130.292">-Month : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="2500" y="2146.5889">-Year : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2500" y="2162.8857">-Time : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="2500" y="2179.1826">-Cost : float</text><line style="stroke:#181818;stroke-width:0.5;" x1="2495" x2="2682" y1="2186.4844" y2="2186.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2500" y="2203.4795">+getDay() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="2500" y="2219.7764">+getMonth() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="2500" y="2236.0732">+getYear() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="2500" y="2252.3701">+getTime() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="2500" y="2268.667">+getCost() : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="2500" y="2284.9639">+setDay(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="2500" y="2301.2607">+setMonth(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="2500" y="2317.5576">+setYear(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="2500" y="2333.8545">+setTime(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="2500" y="2350.1514">+setCost(float) : void</text></g><!--MD5=[1e9b5f6ac9944beb48c7cc62bd26852a]
+class AppointmentConfirmed--><g id="elem_AppointmentConfirmed"><rect codeLine="97" fill="#F1F1F1" height="325.0469" id="AppointmentConfirmed" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="229" x="3155" y="1313"/><ellipse cx="3186.65" cy="1329" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3189.6188,1334.6406 Q3189.0406,1334.9375 3188.4,1335.0781 Q3187.7594,1335.2344 3187.0563,1335.2344 Q3184.5563,1335.2344 3183.2281,1333.5938 Q3181.9156,1331.9375 3181.9156,1328.8125 Q3181.9156,1325.6875 3183.2281,1324.0313 Q3184.5563,1322.375 3187.0563,1322.375 Q3187.7594,1322.375 3188.4,1322.5313 Q3189.0563,1322.6875 3189.6188,1322.9844 L3189.6188,1325.7031 Q3188.9938,1325.125 3188.4,1324.8594 Q3187.8063,1324.5781 3187.1813,1324.5781 Q3185.8375,1324.5781 3185.15,1325.6563 Q3184.4625,1326.7188 3184.4625,1328.8125 Q3184.4625,1330.9063 3185.15,1331.9844 Q3185.8375,1333.0469 3187.1813,1333.0469 Q3187.8063,1333.0469 3188.4,1332.7813 Q3188.9938,1332.5 3189.6188,1331.9219 L3189.6188,1334.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="3204.35" y="1333.8467">AppointmentConfirmed</text><line style="stroke:#181818;stroke-width:0.5;" x1="3156" x2="3383" y1="1345" y2="1345"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="3161" y="1361.9951">-Day : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="3161" y="1378.292">-Month : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="3161" y="1394.5889">-Year : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="3161" y="1410.8857">-Time : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="3161" y="1427.1826">-barberName : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="3161" y="1443.4795">-clientName : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="3161" y="1459.7764">-Cost : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3161" y="1476.0732">-completed : boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="3156" x2="3383" y1="1483.375" y2="1483.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="3161" y="1500.3701">+getDay() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="3161" y="1516.667">+getMonth() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="3161" y="1532.9639">+getYear() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="3161" y="1549.2607">+getTime() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="3161" y="1565.5576">+getBarberName() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="3161" y="1581.8545">+getClientName() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="3161" y="1598.1514">+getCost() : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="3161" y="1614.4482">+isCompleted() : boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="3161" y="1630.7451">+setCompleted(boolean) : void</text></g><!--MD5=[6a9d7a2dc64dd66de5f6564016a725e4]
+class AppointmentConfirmedHandler--><g id="elem_AppointmentConfirmedHandler"><rect codeLine="118" fill="#F1F1F1" height="210.9688" id="AppointmentConfirmedHandler" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="278" x="3248.5" y="3840"/><ellipse cx="3278.35" cy="3856" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3281.3188,3861.6406 Q3280.7406,3861.9375 3280.1,3862.0781 Q3279.4594,3862.2344 3278.7563,3862.2344 Q3276.2563,3862.2344 3274.9281,3860.5938 Q3273.6156,3858.9375 3273.6156,3855.8125 Q3273.6156,3852.6875 3274.9281,3851.0313 Q3276.2563,3849.375 3278.7563,3849.375 Q3279.4594,3849.375 3280.1,3849.5313 Q3280.7563,3849.6875 3281.3188,3849.9844 L3281.3188,3852.7031 Q3280.6938,3852.125 3280.1,3851.8594 Q3279.5063,3851.5781 3278.8813,3851.5781 Q3277.5375,3851.5781 3276.85,3852.6563 Q3276.1625,3853.7188 3276.1625,3855.8125 Q3276.1625,3857.9063 3276.85,3858.9844 Q3277.5375,3860.0469 3278.8813,3860.0469 Q3279.5063,3860.0469 3280.1,3859.7813 Q3280.6938,3859.5 3281.3188,3858.9219 L3281.3188,3861.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="3295.65" y="3860.8467">AppointmentConfirmedHandler</text><line style="stroke:#181818;stroke-width:0.5;" x1="3249.5" x2="3525.5" y1="3872" y2="3872"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="3254.5" y="3888.9951">-Day : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="3254.5" y="3905.292">-Month : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="3254.5" y="3921.5889">-Year : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="3254.5" y="3937.8857">-Time : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="3254.5" y="3954.1826">-c : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="3254.5" y="3970.4795">-b : Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="3249.5" x2="3525.5" y1="3977.7813" y2="3977.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="242" x="3254.5" y="3994.7764">+removeFromBarber(Barber) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="3254.5" y="4011.0732">+removeFromClient(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="3254.5" y="4027.3701">+removeFromBarber(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="266" x="3254.5" y="4043.667">+addAppointmentToPast(String) : void</text></g><!--MD5=[6e104dd7cd6a95f28a56c0f710ea0fb2]
+class AppointmentAvailabilityHandler--><g id="elem_AppointmentAvailabilityHandler"><rect codeLine="131" fill="#F1F1F1" height="308.75" id="AppointmentAvailabilityHandler" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="463" x="684" y="4208"/><ellipse cx="806.25" cy="4224" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M809.2188,4229.6406 Q808.6406,4229.9375 808,4230.0781 Q807.3594,4230.2344 806.6563,4230.2344 Q804.1563,4230.2344 802.8281,4228.5938 Q801.5156,4226.9375 801.5156,4223.8125 Q801.5156,4220.6875 802.8281,4219.0313 Q804.1563,4217.375 806.6563,4217.375 Q807.3594,4217.375 808,4217.5313 Q808.6563,4217.6875 809.2188,4217.9844 L809.2188,4220.7031 Q808.5938,4220.125 808,4219.8594 Q807.4063,4219.5781 806.7813,4219.5781 Q805.4375,4219.5781 804.75,4220.6563 Q804.0625,4221.7188 804.0625,4223.8125 Q804.0625,4225.9063 804.75,4226.9844 Q805.4375,4228.0469 806.7813,4228.0469 Q807.4063,4228.0469 808,4227.7813 Q808.5938,4227.5 809.2188,4226.9219 L809.2188,4229.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="826.75" y="4228.8467">AppointmentAvailabilityHandler</text><line style="stroke:#181818;stroke-width:0.5;" x1="685" x2="1146" y1="4240" y2="4240"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="690" y="4256.9951">-Day : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="690" y="4273.292">-Month : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="690" y="4289.5889">-Year : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="690" y="4305.8857">-Time : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="690" y="4322.1826">-Cost : float</text><line style="stroke:#181818;stroke-width:0.5;" x1="685" x2="1146" y1="4329.4844" y2="4329.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="451" x="690" y="4346.4795">+modifyAvailability(Barber, String, String, String, String, float) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="690" y="4362.7764">+getDay() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="690" y="4379.0732">+getMonth() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="690" y="4395.3701">+getYear() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="690" y="4411.667">+getTime() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="690" y="4427.9639">+getCost() : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="690" y="4444.2607">+setDay(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="690" y="4460.5576">+setMonth(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="690" y="4476.8545">+setYear(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="690" y="4493.1514">+setTime(String) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="690" y="4509.4482">+setCost(float) : void</text></g><!--MD5=[eb0e8f8ddfdc21c3fdb48447501fec67]
+class Review--><g id="elem_Review"><rect codeLine="151" fill="#F1F1F1" height="145.7813" id="Review" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="216" x="81.5" y="3872.5"/><ellipse cx="160.75" cy="3888.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M163.7188,3894.1406 Q163.1406,3894.4375 162.5,3894.5781 Q161.8594,3894.7344 161.1563,3894.7344 Q158.6563,3894.7344 157.3281,3893.0938 Q156.0156,3891.4375 156.0156,3888.3125 Q156.0156,3885.1875 157.3281,3883.5313 Q158.6563,3881.875 161.1563,3881.875 Q161.8594,3881.875 162.5,3882.0313 Q163.1563,3882.1875 163.7188,3882.4844 L163.7188,3885.2031 Q163.0938,3884.625 162.5,3884.3594 Q161.9063,3884.0781 161.2813,3884.0781 Q159.9375,3884.0781 159.25,3885.1563 Q158.5625,3886.2188 158.5625,3888.3125 Q158.5625,3890.4063 159.25,3891.4844 Q159.9375,3892.5469 161.2813,3892.5469 Q161.9063,3892.5469 162.5,3892.2813 Q163.0938,3892 163.7188,3891.4219 L163.7188,3894.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="181.25" y="3893.3467">Review</text><line style="stroke:#181818;stroke-width:0.5;" x1="82.5" x2="296.5" y1="3904.5" y2="3904.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="87.5" y="3921.4951">-rating : int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="87.5" y="3937.792">-reviewText : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="82.5" x2="296.5" y1="3945.0938" y2="3945.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="87.5" y="3962.0889">+getRating() : int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="87.5" y="3978.3857">+getReviewText() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="87.5" y="3994.6826">+setRating(int) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="87.5" y="4010.9795">+setReviewText(String) : void</text></g><!--MD5=[cbda1ed4f0aa1a6276808903ab6154cf]
+class reviewHandler--><g id="elem_reviewHandler"><rect codeLine="160" fill="#F1F1F1" height="96.8906" id="reviewHandler" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="367" x="24" y="3177"/><ellipse cx="154.75" cy="3193" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M157.7188,3198.6406 Q157.1406,3198.9375 156.5,3199.0781 Q155.8594,3199.2344 155.1563,3199.2344 Q152.6563,3199.2344 151.3281,3197.5938 Q150.0156,3195.9375 150.0156,3192.8125 Q150.0156,3189.6875 151.3281,3188.0313 Q152.6563,3186.375 155.1563,3186.375 Q155.8594,3186.375 156.5,3186.5313 Q157.1563,3186.6875 157.7188,3186.9844 L157.7188,3189.7031 Q157.0938,3189.125 156.5,3188.8594 Q155.9063,3188.5781 155.2813,3188.5781 Q153.9375,3188.5781 153.25,3189.6563 Q152.5625,3190.7188 152.5625,3192.8125 Q152.5625,3194.9063 153.25,3195.9844 Q153.9375,3197.0469 155.2813,3197.0469 Q155.9063,3197.0469 156.5,3196.7813 Q157.0938,3196.5 157.7188,3195.9219 L157.7188,3198.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="175.25" y="3197.8467">reviewHandler</text><line style="stroke:#181818;stroke-width:0.5;" x1="25" x2="390" y1="3209" y2="3209"/><line style="stroke:#181818;stroke-width:0.5;" x1="25" x2="390" y1="3217" y2="3217"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="30" y="3233.9951">+addReview(Review, Barber) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269" x="30" y="3250.292">+addBarberShopReview(Review) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="355" x="30" y="3266.5889">+calculateAverageRating(ArrayList&lt;Review&gt;) : float</text></g><!--MD5=[84718776d214be480e4c259efcb737fc]
+class Main--><g id="elem_Main"><rect codeLine="167" fill="#F1F1F1" height="113.1875" id="Main" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="241" x="1930" y="2154.5"/><ellipse cx="2030.25" cy="2170.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2033.2188,2176.1406 Q2032.6406,2176.4375 2032,2176.5781 Q2031.3594,2176.7344 2030.6563,2176.7344 Q2028.1563,2176.7344 2026.8281,2175.0938 Q2025.5156,2173.4375 2025.5156,2170.3125 Q2025.5156,2167.1875 2026.8281,2165.5313 Q2028.1563,2163.875 2030.6563,2163.875 Q2031.3594,2163.875 2032,2164.0313 Q2032.6563,2164.1875 2033.2188,2164.4844 L2033.2188,2167.2031 Q2032.5938,2166.625 2032,2166.3594 Q2031.4063,2166.0781 2030.7813,2166.0781 Q2029.4375,2166.0781 2028.75,2167.1563 Q2028.0625,2168.2188 2028.0625,2170.3125 Q2028.0625,2172.4063 2028.75,2173.4844 Q2029.4375,2174.5469 2030.7813,2174.5469 Q2031.4063,2174.5469 2032,2174.2813 Q2032.5938,2174 2033.2188,2173.4219 L2033.2188,2176.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="2050.75" y="2175.3467">Main</text><line style="stroke:#181818;stroke-width:0.5;" x1="1931" x2="2170" y1="2186.5" y2="2186.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="229" x="1936" y="2203.4951">+systemAccounts : AccountData</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="188" x="1936" y="2219.792">+barberShop : BarberShop</text><line style="stroke:#181818;stroke-width:0.5;" x1="1931" x2="2170" y1="2227.0938" y2="2227.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="1936" y="2244.0889">+main(String[]) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="1936" y="2260.3857">+initializeSystem() : void</text></g><!--MD5=[e3fd87eba6a050f749e51ee3af301517]
+class AccountData--><g id="elem_AccountData"><rect codeLine="174" fill="#F1F1F1" height="210.9688" id="AccountData" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="255" x="2885" y="3455.5"/><ellipse cx="2963.75" cy="3471.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2966.7188,3477.1406 Q2966.1406,3477.4375 2965.5,3477.5781 Q2964.8594,3477.7344 2964.1563,3477.7344 Q2961.6563,3477.7344 2960.3281,3476.0938 Q2959.0156,3474.4375 2959.0156,3471.3125 Q2959.0156,3468.1875 2960.3281,3466.5313 Q2961.6563,3464.875 2964.1563,3464.875 Q2964.8594,3464.875 2965.5,3465.0313 Q2966.1563,3465.1875 2966.7188,3465.4844 L2966.7188,3468.2031 Q2966.0938,3467.625 2965.5,3467.3594 Q2964.9063,3467.0781 2964.2813,3467.0781 Q2962.9375,3467.0781 2962.25,3468.1563 Q2961.5625,3469.2188 2961.5625,3471.3125 Q2961.5625,3473.4063 2962.25,3474.4844 Q2962.9375,3475.5469 2964.2813,3475.5469 Q2964.9063,3475.5469 2965.5,3475.2813 Q2966.0938,3475 2966.7188,3474.4219 L2966.7188,3477.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="2984.25" y="3476.3467">AccountData</text><line style="stroke:#181818;stroke-width:0.5;" x1="2886" x2="3139" y1="3487.5" y2="3487.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="2891" y="3504.4951">-clients : ArrayList&lt;Client&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="2891" y="3520.792">-barbers : ArrayList&lt;Barber&gt;</text><line style="stroke:#181818;stroke-width:0.5;" x1="2886" x2="3139" y1="3528.0938" y2="3528.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="2891" y="3545.0889">+getClients() : ArrayList&lt;Client&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="2891" y="3561.3857">+getBarbers() : ArrayList&lt;Barber&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="243" x="2891" y="3577.6826">+getSpecificBarber(String) : Barber</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="2891" y="3593.9795">+getSpecificClient(String) : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="2891" y="3610.2764">+addClient(Client) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="2891" y="3626.5732">+addBarber(Barber) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="2891" y="3642.8701">+removeClient(Client) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="2891" y="3659.167">+removeBarber(Barber) : void</text></g><!--MD5=[8488f7544824fda42de0958c78e90c41]
+class BarberShop--><g id="elem_BarberShop"><rect codeLine="187" fill="#F1F1F1" height="227.2656" id="BarberShop" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="257" x="186" y="3447.5"/><ellipse cx="269.25" cy="3463.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M272.2188,3469.1406 Q271.6406,3469.4375 271,3469.5781 Q270.3594,3469.7344 269.6563,3469.7344 Q267.1563,3469.7344 265.8281,3468.0938 Q264.5156,3466.4375 264.5156,3463.3125 Q264.5156,3460.1875 265.8281,3458.5313 Q267.1563,3456.875 269.6563,3456.875 Q270.3594,3456.875 271,3457.0313 Q271.6563,3457.1875 272.2188,3457.4844 L272.2188,3460.2031 Q271.5938,3459.625 271,3459.3594 Q270.4063,3459.0781 269.7813,3459.0781 Q268.4375,3459.0781 267.75,3460.1563 Q267.0625,3461.2188 267.0625,3463.3125 Q267.0625,3465.4063 267.75,3466.4844 Q268.4375,3467.5469 269.7813,3467.5469 Q270.4063,3467.5469 271,3467.2813 Q271.5938,3467 272.2188,3466.4219 L272.2188,3469.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="289.75" y="3468.3467">BarberShop</text><line style="stroke:#181818;stroke-width:0.5;" x1="187" x2="442" y1="3479.5" y2="3479.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="192" y="3496.4951">-reviews : ArrayList&lt;Review&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="192" y="3512.792">-rating : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="192" y="3529.0889">-address : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="192" y="3545.3857">-phoneNumber : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="192" y="3561.6826">-email : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="187" x2="442" y1="3568.9844" y2="3568.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="245" x="192" y="3585.9795">+getReviews() : ArrayList&lt;Review&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="192" y="3602.2764">+getRating() : float</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="192" y="3618.5732">+addReview(Review) : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="192" y="3634.8701">+getAddress() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="192" y="3651.167">+getPhoneNumber() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="192" y="3667.4639">+getEmail() : String</text></g><!--MD5=[5f4ce9618bccee73cedd3b509f40c5e6]
+class mainGUI--><g id="elem_mainGUI"><rect codeLine="202" fill="#F1F1F1" height="145.7813" id="mainGUI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="236" x="2949.5" y="2506"/><ellipse cx="3034.75" cy="2522" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3037.7188,2527.6406 Q3037.1406,2527.9375 3036.5,2528.0781 Q3035.8594,2528.2344 3035.1563,2528.2344 Q3032.6563,2528.2344 3031.3281,2526.5938 Q3030.0156,2524.9375 3030.0156,2521.8125 Q3030.0156,2518.6875 3031.3281,2517.0313 Q3032.6563,2515.375 3035.1563,2515.375 Q3035.8594,2515.375 3036.5,2515.5313 Q3037.1563,2515.6875 3037.7188,2515.9844 L3037.7188,2518.7031 Q3037.0938,2518.125 3036.5,2517.8594 Q3035.9063,2517.5781 3035.2813,2517.5781 Q3033.9375,2517.5781 3033.25,2518.6563 Q3032.5625,2519.7188 3032.5625,2521.8125 Q3032.5625,2523.9063 3033.25,2524.9844 Q3033.9375,2526.0469 3035.2813,2526.0469 Q3035.9063,2526.0469 3036.5,2525.7813 Q3037.0938,2525.5 3037.7188,2524.9219 L3037.7188,2527.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="3055.25" y="2526.8467">mainGUI</text><line style="stroke:#181818;stroke-width:0.5;" x1="2950.5" x2="3184.5" y1="2538" y2="2538"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2955.5" y="2554.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="2955.5" y="2571.292">-btnClientLogin : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="2955.5" y="2587.5889">-btnBarberLogin : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224" x="2955.5" y="2603.8857">-btnCreateNewAccount : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="2950.5" x2="3184.5" y1="2611.1875" y2="2611.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2955.5" y="2628.1826">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2955.5" y="2644.4795">+dispose() : void</text></g><!--MD5=[1beaf3e20880c403ff5a55d3cbfc2861]
+class ClientHome--><g id="elem_ClientHome"><rect codeLine="211" fill="#F1F1F1" height="227.2656" id="ClientHome" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="287" x="2926" y="2097.5"/><ellipse cx="3025.25" cy="2113.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3028.2188,2119.1406 Q3027.6406,2119.4375 3027,2119.5781 Q3026.3594,2119.7344 3025.6563,2119.7344 Q3023.1563,2119.7344 3021.8281,2118.0938 Q3020.5156,2116.4375 3020.5156,2113.3125 Q3020.5156,2110.1875 3021.8281,2108.5313 Q3023.1563,2106.875 3025.6563,2106.875 Q3026.3594,2106.875 3027,2107.0313 Q3027.6563,2107.1875 3028.2188,2107.4844 L3028.2188,2110.2031 Q3027.5938,2109.625 3027,2109.3594 Q3026.4063,2109.0781 3025.7813,2109.0781 Q3024.4375,2109.0781 3023.75,2110.1563 Q3023.0625,2111.2188 3023.0625,2113.3125 Q3023.0625,2115.4063 3023.75,2116.4844 Q3024.4375,2117.5469 3025.7813,2117.5469 Q3026.4063,2117.5469 3027,2117.2813 Q3027.5938,2117 3028.2188,2116.4219 L3028.2188,2119.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="3045.75" y="2118.3467">ClientHome</text><line style="stroke:#181818;stroke-width:0.5;" x1="2927" x2="3212" y1="2129.5" y2="2129.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2932" y="2146.4951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="2932" y="2162.792">-currentClient : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="275" x="2932" y="2179.0889">-btnScheduleNewAppointment : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="2932" y="2195.3857">-btnGetInfo : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="2932" y="2211.6826">-btnUpcomingAppointments : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="2932" y="2227.9795">-btnPastAppointments : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="2932" y="2244.2764">-btnFavoriteBarbers : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="2932" y="2260.5732">-btnLogOut : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="2932" y="2276.8701">-btnDelete : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="2927" x2="3212" y1="2284.1719" y2="2284.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2932" y="2301.167">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2932" y="2317.4639">+dispose() : void</text></g><!--MD5=[720107391c9ea37e7d1952f8f872de12]
+class BarberHome--><g id="elem_BarberHome"><rect codeLine="225" fill="#F1F1F1" height="194.6719" id="BarberHome" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="270" x="1119.5" y="3128"/><ellipse cx="1206.75" cy="3144" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1209.7188,3149.6406 Q1209.1406,3149.9375 1208.5,3150.0781 Q1207.8594,3150.2344 1207.1563,3150.2344 Q1204.6563,3150.2344 1203.3281,3148.5938 Q1202.0156,3146.9375 1202.0156,3143.8125 Q1202.0156,3140.6875 1203.3281,3139.0313 Q1204.6563,3137.375 1207.1563,3137.375 Q1207.8594,3137.375 1208.5,3137.5313 Q1209.1563,3137.6875 1209.7188,3137.9844 L1209.7188,3140.7031 Q1209.0938,3140.125 1208.5,3139.8594 Q1207.9063,3139.5781 1207.2813,3139.5781 Q1205.9375,3139.5781 1205.25,3140.6563 Q1204.5625,3141.7188 1204.5625,3143.8125 Q1204.5625,3145.9063 1205.25,3146.9844 Q1205.9375,3148.0469 1207.2813,3148.0469 Q1207.9063,3148.0469 1208.5,3147.7813 Q1209.0938,3147.5 1209.7188,3146.9219 L1209.7188,3149.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1227.25" y="3148.8467">BarberHome</text><line style="stroke:#181818;stroke-width:0.5;" x1="1120.5" x2="1388.5" y1="3160" y2="3160"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="1125.5" y="3176.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1125.5" y="3193.292">-b : Barber</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="1125.5" y="3209.5889">-btnViewAvailability : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="1125.5" y="3225.8857">-btnUpcomingAppointments : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1125.5" y="3242.1826">-btnViewRatings : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="1125.5" y="3258.4795">-btnDeleteAccount : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1125.5" y="3274.7764">-btnLogOut : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="1120.5" x2="1388.5" y1="3282.0781" y2="3282.0781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1125.5" y="3299.0732">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1125.5" y="3315.3701">+dispose() : void</text></g><!--MD5=[2fb83d1cbf142b24f77cd6de2c80ab72]
+class ClientLoginPage--><g id="elem_ClientLoginPage"><rect codeLine="237" fill="#F1F1F1" height="162.0781" id="ClientLoginPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="224" x="3261.5" y="2825.5"/><ellipse cx="3313.75" cy="2841.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3316.7188,2847.1406 Q3316.1406,2847.4375 3315.5,2847.5781 Q3314.8594,2847.7344 3314.1563,2847.7344 Q3311.6563,2847.7344 3310.3281,2846.0938 Q3309.0156,2844.4375 3309.0156,2841.3125 Q3309.0156,2838.1875 3310.3281,2836.5313 Q3311.6563,2834.875 3314.1563,2834.875 Q3314.8594,2834.875 3315.5,2835.0313 Q3316.1563,2835.1875 3316.7188,2835.4844 L3316.7188,2838.2031 Q3316.0938,2837.625 3315.5,2837.3594 Q3314.9063,2837.0781 3314.2813,2837.0781 Q3312.9375,2837.0781 3312.25,2838.1563 Q3311.5625,2839.2188 3311.5625,2841.3125 Q3311.5625,2843.4063 3312.25,2844.4844 Q3312.9375,2845.5469 3314.2813,2845.5469 Q3314.9063,2845.5469 3315.5,2845.2813 Q3316.0938,2845 3316.7188,2844.4219 L3316.7188,2847.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="3334.25" y="2846.3467">ClientLoginPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="3262.5" x2="3484.5" y1="2857.5" y2="2857.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3267.5" y="2874.4951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="3267.5" y="2890.792">-textFieldUsername : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="3267.5" y="2907.0889">-textFieldPassword : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="3267.5" y="2923.3857">-btnLogin : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="3267.5" y="2939.6826">-btnBack : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="3262.5" x2="3484.5" y1="2946.9844" y2="2946.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3267.5" y="2963.9795">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3267.5" y="2980.2764">+dispose() : void</text></g><!--MD5=[9d8b203598724bc17f47803507ba6496]
+class BarberLoginPage--><g id="elem_BarberLoginPage"><rect codeLine="247" fill="#F1F1F1" height="162.0781" id="BarberLoginPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="224" x="2773.5" y="2825.5"/><ellipse cx="2822.25" cy="2841.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2825.2188,2847.1406 Q2824.6406,2847.4375 2824,2847.5781 Q2823.3594,2847.7344 2822.6563,2847.7344 Q2820.1563,2847.7344 2818.8281,2846.0938 Q2817.5156,2844.4375 2817.5156,2841.3125 Q2817.5156,2838.1875 2818.8281,2836.5313 Q2820.1563,2834.875 2822.6563,2834.875 Q2823.3594,2834.875 2824,2835.0313 Q2824.6563,2835.1875 2825.2188,2835.4844 L2825.2188,2838.2031 Q2824.5938,2837.625 2824,2837.3594 Q2823.4063,2837.0781 2822.7813,2837.0781 Q2821.4375,2837.0781 2820.75,2838.1563 Q2820.0625,2839.2188 2820.0625,2841.3125 Q2820.0625,2843.4063 2820.75,2844.4844 Q2821.4375,2845.5469 2822.7813,2845.5469 Q2823.4063,2845.5469 2824,2845.2813 Q2824.5938,2845 2825.2188,2844.4219 L2825.2188,2847.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2842.75" y="2846.3467">BarberLoginPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="2774.5" x2="2996.5" y1="2857.5" y2="2857.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2779.5" y="2874.4951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="2779.5" y="2890.792">-textFieldUsername : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="2779.5" y="2907.0889">-textFieldPassword : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="2779.5" y="2923.3857">-btnLogin : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2779.5" y="2939.6826">-btnBack : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="2774.5" x2="2996.5" y1="2946.9844" y2="2946.9844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2779.5" y="2963.9795">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2779.5" y="2980.2764">+dispose() : void</text></g><!--MD5=[3f16691c61562632dd881e119b06db9e]
+class CreateNewAccountClient--><g id="elem_CreateNewAccountClient"><rect codeLine="257" fill="#F1F1F1" height="227.2656" id="CreateNewAccountClient" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="226" x="3260.5" y="3112"/><ellipse cx="3285.4" cy="3128" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3288.3688,3133.6406 Q3287.7906,3133.9375 3287.15,3134.0781 Q3286.5094,3134.2344 3285.8063,3134.2344 Q3283.3063,3134.2344 3281.9781,3132.5938 Q3280.6656,3130.9375 3280.6656,3127.8125 Q3280.6656,3124.6875 3281.9781,3123.0313 Q3283.3063,3121.375 3285.8063,3121.375 Q3286.5094,3121.375 3287.15,3121.5313 Q3287.8063,3121.6875 3288.3688,3121.9844 L3288.3688,3124.7031 Q3287.7438,3124.125 3287.15,3123.8594 Q3286.5563,3123.5781 3285.9313,3123.5781 Q3284.5875,3123.5781 3283.9,3124.6563 Q3283.2125,3125.7188 3283.2125,3127.8125 Q3283.2125,3129.9063 3283.9,3130.9844 Q3284.5875,3132.0469 3285.9313,3132.0469 Q3286.5563,3132.0469 3287.15,3131.7813 Q3287.7438,3131.5 3288.3688,3130.9219 L3288.3688,3133.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="3301.6" y="3132.8467">CreateNewAccountClient</text><line style="stroke:#181818;stroke-width:0.5;" x1="3261.5" x2="3485.5" y1="3144" y2="3144"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3266.5" y="3160.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="3266.5" y="3177.292">-textFieldUsername : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="3266.5" y="3193.5889">-textFieldPassword : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="3266.5" y="3209.8857">-textFieldName : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="3266.5" y="3226.1826">-textFieldNumber : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="3266.5" y="3242.4795">-textFieldEmail : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="3266.5" y="3258.7764">-textFieldCreditCard : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="3266.5" y="3275.0732">-btnCreate : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="3266.5" y="3291.3701">-btnBack : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="3261.5" x2="3485.5" y1="3298.6719" y2="3298.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3266.5" y="3315.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3266.5" y="3331.9639">+dispose() : void</text></g><!--MD5=[a0ee6754de1c7ad56d9e0754ec7ce2d3]
+class CreateNewAccountBarber--><g id="elem_CreateNewAccountBarber"><rect codeLine="271" fill="#F1F1F1" height="227.2656" id="CreateNewAccountBarber" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="265" x="2753" y="3112"/><ellipse cx="2792.3" cy="3128" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2795.2688,3133.6406 Q2794.6906,3133.9375 2794.05,3134.0781 Q2793.4094,3134.2344 2792.7063,3134.2344 Q2790.2063,3134.2344 2788.8781,3132.5938 Q2787.5656,3130.9375 2787.5656,3127.8125 Q2787.5656,3124.6875 2788.8781,3123.0313 Q2790.2063,3121.375 2792.7063,3121.375 Q2793.4094,3121.375 2794.05,3121.5313 Q2794.7063,3121.6875 2795.2688,3121.9844 L2795.2688,3124.7031 Q2794.6438,3124.125 2794.05,3123.8594 Q2793.4563,3123.5781 2792.8313,3123.5781 Q2791.4875,3123.5781 2790.8,3124.6563 Q2790.1125,3125.7188 2790.1125,3127.8125 Q2790.1125,3129.9063 2790.8,3130.9844 Q2791.4875,3132.0469 2792.8313,3132.0469 Q2793.4563,3132.0469 2794.05,3131.7813 Q2794.6438,3131.5 2795.2688,3130.9219 L2795.2688,3133.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="2811.7" y="3132.8467">CreateNewAccountBarber</text><line style="stroke:#181818;stroke-width:0.5;" x1="2754" x2="3017" y1="3144" y2="3144"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2759" y="3160.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212" x="2759" y="3177.292">-textFieldUsername : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="2759" y="3193.5889">-textFieldPassword : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="2759" y="3209.8857">-textFieldName : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="2759" y="3226.1826">-textFieldAddress : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="253" x="2759" y="3242.4795">-textFieldExperienceLevel : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="235" x="2759" y="3258.7764">-textFieldSpecialization : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="2759" y="3275.0732">-btnCreate : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2759" y="3291.3701">-btnBack : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="2754" x2="3017" y1="3298.6719" y2="3298.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2759" y="3315.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2759" y="3331.9639">+dispose() : void</text></g><!--MD5=[7b1e248f1b05ca183dfcab892d52dc76]
+class NewAppointmentPage--><g id="elem_NewAppointmentPage"><rect codeLine="285" fill="#F1F1F1" height="194.6719" id="NewAppointmentPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="3806" y="2481.5"/><ellipse cx="3824.15" cy="2497.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3827.1188,2503.1406 Q3826.5406,2503.4375 3825.9,2503.5781 Q3825.2594,2503.7344 3824.5563,2503.7344 Q3822.0563,2503.7344 3820.7281,2502.0938 Q3819.4156,2500.4375 3819.4156,2497.3125 Q3819.4156,2494.1875 3820.7281,2492.5313 Q3822.0563,2490.875 3824.5563,2490.875 Q3825.2594,2490.875 3825.9,2491.0313 Q3826.5563,2491.1875 3827.1188,2491.4844 L3827.1188,2494.2031 Q3826.4938,2493.625 3825.9,2493.3594 Q3825.3063,2493.0781 3824.6813,2493.0781 Q3823.3375,2493.0781 3822.65,2494.1563 Q3821.9625,2495.2188 3821.9625,2497.3125 Q3821.9625,2499.4063 3822.65,2500.4844 Q3823.3375,2501.5469 3824.6813,2501.5469 Q3825.3063,2501.5469 3825.9,2501.2813 Q3826.4938,2501 3827.1188,2500.4219 L3827.1188,2503.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="3838.85" y="2502.3467">NewAppointmentPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="3807" x2="3998" y1="2513.5" y2="2513.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3812" y="2530.4951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="3812" y="2546.792">-lblInstructionLabel : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="3812" y="2563.0889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="3812" y="2579.3857">-listOfBarbers : JList</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="3812" y="2595.6826">-btnSelect : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3812" y="2611.9795">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="3812" y="2628.2764">-currentClient : Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="3807" x2="3998" y1="2635.5781" y2="2635.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3812" y="2652.5732">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3812" y="2668.8701">+dispose() : void</text></g><!--MD5=[7fb4c8a0f27b89d661b56872ed8d1017]
+class SelectAvailabilityPage--><g id="elem_SelectAvailabilityPage"><rect codeLine="297" fill="#F1F1F1" height="227.2656" id="SelectAvailabilityPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="3173" y="1738"/><ellipse cx="3194.75" cy="1754" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3197.7188,1759.6406 Q3197.1406,1759.9375 3196.5,1760.0781 Q3195.8594,1760.2344 3195.1563,1760.2344 Q3192.6563,1760.2344 3191.3281,1758.5938 Q3190.0156,1756.9375 3190.0156,1753.8125 Q3190.0156,1750.6875 3191.3281,1749.0313 Q3192.6563,1747.375 3195.1563,1747.375 Q3195.8594,1747.375 3196.5,1747.5313 Q3197.1563,1747.6875 3197.7188,1747.9844 L3197.7188,1750.7031 Q3197.0938,1750.125 3196.5,1749.8594 Q3195.9063,1749.5781 3195.2813,1749.5781 Q3193.9375,1749.5781 3193.25,1750.6563 Q3192.5625,1751.7188 3192.5625,1753.8125 Q3192.5625,1755.9063 3193.25,1756.9844 Q3193.9375,1758.0469 3195.2813,1758.0469 Q3195.9063,1758.0469 3196.5,1757.7813 Q3197.0938,1757.5 3197.7188,1756.9219 L3197.7188,1759.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="3210.25" y="1758.8467">SelectAvailabilityPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="3174" x2="3365" y1="1770" y2="1770"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3179" y="1786.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="3179" y="1803.292">-availabilityTable : JTable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="3179" y="1819.5889">-lblInstructionLabel : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="3179" y="1835.8857">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3179" y="1852.1826">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="3179" y="1868.4795">-btnSelect : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="3179" y="1884.7764">-m : DefaultTableModel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="3179" y="1901.0732">-selectedBarber : Barber</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="3179" y="1917.3701">-currentClient : Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="3174" x2="3365" y1="1924.6719" y2="1924.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3179" y="1941.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3179" y="1957.9639">+dispose() : void</text></g><!--MD5=[50726786dd114353864919542eb5a37f]
+class UpcomingAppointments--><g id="elem_UpcomingAppointments"><rect codeLine="311" fill="#F1F1F1" height="243.5625" id="UpcomingAppointments" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="209" x="4381" y="2457"/><ellipse cx="4400.5" cy="2473" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4403.4688,2478.6406 Q4402.8906,2478.9375 4402.25,2479.0781 Q4401.6094,2479.2344 4400.9063,2479.2344 Q4398.4063,2479.2344 4397.0781,2477.5938 Q4395.7656,2475.9375 4395.7656,2472.8125 Q4395.7656,2469.6875 4397.0781,2468.0313 Q4398.4063,2466.375 4400.9063,2466.375 Q4401.6094,2466.375 4402.25,2466.5313 Q4402.9063,2466.6875 4403.4688,2466.9844 L4403.4688,2469.7031 Q4402.8438,2469.125 4402.25,2468.8594 Q4401.6563,2468.5781 4401.0313,2468.5781 Q4399.6875,2468.5781 4399,2469.6563 Q4398.3125,2470.7188 4398.3125,2472.8125 Q4398.3125,2474.9063 4399,2475.9844 Q4399.6875,2477.0469 4401.0313,2477.0469 Q4401.6563,2477.0469 4402.25,2476.7813 Q4402.8438,2476.5 4403.4688,2475.9219 L4403.4688,2478.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="4415.5" y="2477.8467">UpcomingAppointments</text><line style="stroke:#181818;stroke-width:0.5;" x1="4382" x2="4589" y1="2489" y2="2489"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="4387" y="2505.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="4387" y="2522.292">-table : JTable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="4387" y="2538.5889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="4387" y="2554.8857">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="4387" y="2571.1826">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="4387" y="2587.4795">-currentClient : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="4387" y="2603.7764">-model : DefaultTableModel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="4387" y="2620.0732">-btnModify : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="4387" y="2636.3701">-txtInstructions : JTextArea</text><line style="stroke:#181818;stroke-width:0.5;" x1="4382" x2="4589" y1="2643.6719" y2="2643.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="4387" y="2660.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="4387" y="2676.9639">+dispose() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="4387" y="2693.2607">+showAppointments() : void</text></g><!--MD5=[2138fcb7a4f890ecc5e419d873b02a16]
+class PastAppointments--><g id="elem_PastAppointments"><rect codeLine="326" fill="#F1F1F1" height="243.5625" id="PastAppointments" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="277" x="438" y="2457"/><ellipse cx="508.75" cy="2473" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M511.7188,2478.6406 Q511.1406,2478.9375 510.5,2479.0781 Q509.8594,2479.2344 509.1563,2479.2344 Q506.6563,2479.2344 505.3281,2477.5938 Q504.0156,2475.9375 504.0156,2472.8125 Q504.0156,2469.6875 505.3281,2468.0313 Q506.6563,2466.375 509.1563,2466.375 Q509.8594,2466.375 510.5,2466.5313 Q511.1563,2466.6875 511.7188,2466.9844 L511.7188,2469.7031 Q511.0938,2469.125 510.5,2468.8594 Q509.9063,2468.5781 509.2813,2468.5781 Q507.9375,2468.5781 507.25,2469.6563 Q506.5625,2470.7188 506.5625,2472.8125 Q506.5625,2474.9063 507.25,2475.9844 Q507.9375,2477.0469 509.2813,2477.0469 Q509.9063,2477.0469 510.5,2476.7813 Q511.0938,2476.5 511.7188,2475.9219 L511.7188,2478.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="529.25" y="2477.8467">PastAppointments</text><line style="stroke:#181818;stroke-width:0.5;" x1="439" x2="714" y1="2489" y2="2489"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="444" y="2505.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="444" y="2522.292">-table : JTable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="444" y="2538.5889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="444" y="2554.8857">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="444" y="2571.1826">-btnReview : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="444" y="2587.4795">-currentClient : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="444" y="2603.7764">-model : DefaultTableModel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="444" y="2620.0732">-btnReviewWholeBarberShop : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="444" y="2636.3701">-btnAddFavorite : JButton</text><line style="stroke:#181818;stroke-width:0.5;" x1="439" x2="714" y1="2643.6719" y2="2643.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="444" y="2660.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="444" y="2676.9639">+dispose() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="444" y="2693.2607">+showAppointments() : void</text></g><!--MD5=[f078f6f7eb069adcd35e9dd1b076605a]
+class FavoriteBarbersPage--><g id="elem_FavoriteBarbersPage"><rect codeLine="341" fill="#F1F1F1" height="178.375" id="FavoriteBarbersPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="3427.5" y="2490"/><ellipse cx="3442.95" cy="2506" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3445.9188,2511.6406 Q3445.3406,2511.9375 3444.7,2512.0781 Q3444.0594,2512.2344 3443.3563,2512.2344 Q3440.8563,2512.2344 3439.5281,2510.5938 Q3438.2156,2508.9375 3438.2156,2505.8125 Q3438.2156,2502.6875 3439.5281,2501.0313 Q3440.8563,2499.375 3443.3563,2499.375 Q3444.0594,2499.375 3444.7,2499.5313 Q3445.3563,2499.6875 3445.9188,2499.9844 L3445.9188,2502.7031 Q3445.2938,2502.125 3444.7,2501.8594 Q3444.1063,2501.5781 3443.4813,2501.5781 Q3442.1375,2501.5781 3441.45,2502.6563 Q3440.7625,2503.7188 3440.7625,2505.8125 Q3440.7625,2507.9063 3441.45,2508.9844 Q3442.1375,2510.0469 3443.4813,2510.0469 Q3444.1063,2510.0469 3444.7,2509.7813 Q3445.2938,2509.5 3445.9188,2508.9219 L3445.9188,2511.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="3457.05" y="2510.8467">FavoriteBarbersPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="3428.5" x2="3602.5" y1="2522" y2="2522"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="3433.5" y="2538.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="3433.5" y="2555.292">-listOfBarbers : JList</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="3433.5" y="2571.5889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="3433.5" y="2587.8857">-btnSelect : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3433.5" y="2604.1826">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="3433.5" y="2620.4795">-currentClient : Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="3428.5" x2="3602.5" y1="2627.7813" y2="2627.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3433.5" y="2644.7764">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3433.5" y="2661.0732">+dispose() : void</text></g><!--MD5=[8b9caeb86eb24d2ff7966c48bc59484f]
+class BarberShopInfo--><g id="elem_BarberShopInfo"><rect codeLine="352" fill="#F1F1F1" height="162.0781" id="BarberShopInfo" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="2693.5" y="2498"/><ellipse cx="2725.15" cy="2514" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2728.1188,2519.6406 Q2727.5406,2519.9375 2726.9,2520.0781 Q2726.2594,2520.2344 2725.5563,2520.2344 Q2723.0563,2520.2344 2721.7281,2518.5938 Q2720.4156,2516.9375 2720.4156,2513.8125 Q2720.4156,2510.6875 2721.7281,2509.0313 Q2723.0563,2507.375 2725.5563,2507.375 Q2726.2594,2507.375 2726.9,2507.5313 Q2727.5563,2507.6875 2728.1188,2507.9844 L2728.1188,2510.7031 Q2727.4938,2510.125 2726.9,2509.8594 Q2726.3063,2509.5781 2725.6813,2509.5781 Q2724.3375,2509.5781 2723.65,2510.6563 Q2722.9625,2511.7188 2722.9625,2513.8125 Q2722.9625,2515.9063 2723.65,2516.9844 Q2724.3375,2518.0469 2725.6813,2518.0469 Q2726.3063,2518.0469 2726.9,2517.7813 Q2727.4938,2517.5 2728.1188,2516.9219 L2728.1188,2519.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2742.85" y="2518.8467">BarberShopInfo</text><line style="stroke:#181818;stroke-width:0.5;" x1="2694.5" x2="2868.5" y1="2530" y2="2530"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2699.5" y="2546.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2699.5" y="2563.292">-txtInfo : JTextArea</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="2699.5" y="2579.5889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2699.5" y="2595.8857">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="2699.5" y="2612.1826">-currentClient : Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="2694.5" x2="2868.5" y1="2619.4844" y2="2619.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2699.5" y="2636.4795">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2699.5" y="2652.7764">+dispose() : void</text></g><!--MD5=[c579d193e42e6272f37e6751e45927bd]
+class WriteReview--><g id="elem_WriteReview"><rect codeLine="362" fill="#F1F1F1" height="210.9688" id="WriteReview" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="278" x="68.5" y="2801"/><ellipse cx="161.25" cy="2817" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M164.2188,2822.6406 Q163.6406,2822.9375 163,2823.0781 Q162.3594,2823.2344 161.6563,2823.2344 Q159.1563,2823.2344 157.8281,2821.5938 Q156.5156,2819.9375 156.5156,2816.8125 Q156.5156,2813.6875 157.8281,2812.0313 Q159.1563,2810.375 161.6563,2810.375 Q162.3594,2810.375 163,2810.5313 Q163.6563,2810.6875 164.2188,2810.9844 L164.2188,2813.7031 Q163.5938,2813.125 163,2812.8594 Q162.4063,2812.5781 161.7813,2812.5781 Q160.4375,2812.5781 159.75,2813.6563 Q159.0625,2814.7188 159.0625,2816.8125 Q159.0625,2818.9063 159.75,2819.9844 Q160.4375,2821.0469 161.7813,2821.0469 Q162.4063,2821.0469 163,2820.7813 Q163.5938,2820.5 164.2188,2819.9219 L164.2188,2822.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="181.75" y="2821.8467">WriteReview</text><line style="stroke:#181818;stroke-width:0.5;" x1="69.5" x2="345.5" y1="2833" y2="2833"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="74.5" y="2849.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="74.5" y="2866.292">-textFieldRating : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="74.5" y="2882.5889">-textAreaReview : JTextArea</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="74.5" y="2898.8857">-btnSubmit : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="74.5" y="2915.1826">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="266" x="74.5" y="2931.4795">-appointment : AppointmentConfirmed</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="74.5" y="2947.7764">-currentClient : Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="74.5" y="2964.0732">-isBarberReview : boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="69.5" x2="345.5" y1="2971.375" y2="2971.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="74.5" y="2988.3701">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="74.5" y="3004.667">+dispose() : void</text></g><!--MD5=[cafd9188a7154f3c659b20a839e04ecd]
+class ReviewsPage--><g id="elem_ReviewsPage"><rect codeLine="375" fill="#F1F1F1" height="162.0781" id="ReviewsPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="523.5" y="3480"/><ellipse cx="561.9" cy="3496" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M564.8688,3501.6406 Q564.2906,3501.9375 563.65,3502.0781 Q563.0094,3502.2344 562.3063,3502.2344 Q559.8063,3502.2344 558.4781,3500.5938 Q557.1656,3498.9375 557.1656,3495.8125 Q557.1656,3492.6875 558.4781,3491.0313 Q559.8063,3489.375 562.3063,3489.375 Q563.0094,3489.375 563.65,3489.5313 Q564.3063,3489.6875 564.8688,3489.9844 L564.8688,3492.7031 Q564.2438,3492.125 563.65,3491.8594 Q563.0563,3491.5781 562.4313,3491.5781 Q561.0875,3491.5781 560.4,3492.6563 Q559.7125,3493.7188 559.7125,3495.8125 Q559.7125,3497.9063 560.4,3498.9844 Q561.0875,3500.0469 562.4313,3500.0469 Q563.0563,3500.0469 563.65,3499.7813 Q564.2438,3499.5 564.8688,3498.9219 L564.8688,3501.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="581.1" y="3500.8467">ReviewsPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="524.5" x2="698.5" y1="3512" y2="3512"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="529.5" y="3528.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="529.5" y="3545.292">-txtReviews : JTextArea</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="529.5" y="3561.5889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="529.5" y="3577.8857">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="529.5" y="3594.1826">-currentBarber : Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="524.5" x2="698.5" y1="3601.4844" y2="3601.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="529.5" y="3618.4795">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="529.5" y="3634.7764">+dispose() : void</text></g><!--MD5=[b037ffa4116b9a233c0ea6fccb690be1]
+class AvailabilityPage--><g id="elem_AvailabilityPage"><rect codeLine="385" fill="#F1F1F1" height="243.5625" id="AvailabilityPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="942" y="3439"/><ellipse cx="983.1" cy="3455" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M986.0688,3460.6406 Q985.4906,3460.9375 984.85,3461.0781 Q984.2094,3461.2344 983.5063,3461.2344 Q981.0063,3461.2344 979.6781,3459.5938 Q978.3656,3457.9375 978.3656,3454.8125 Q978.3656,3451.6875 979.6781,3450.0313 Q981.0063,3448.375 983.5063,3448.375 Q984.2094,3448.375 984.85,3448.5313 Q985.5063,3448.6875 986.0688,3448.9844 L986.0688,3451.7031 Q985.4438,3451.125 984.85,3450.8594 Q984.2563,3450.5781 983.6313,3450.5781 Q982.2875,3450.5781 981.6,3451.6563 Q980.9125,3452.7188 980.9125,3454.8125 Q980.9125,3456.9063 981.6,3457.9844 Q982.2875,3459.0469 983.6313,3459.0469 Q984.2563,3459.0469 984.85,3458.7813 Q985.4438,3458.5 986.0688,3457.9219 L986.0688,3460.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1002.9" y="3459.8467">AvailabilityPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="943" x2="1134" y1="3471" y2="3471"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="948" y="3487.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="948" y="3504.292">-availabilityTable : JTable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="948" y="3520.5889">-lblInstructionLabel : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="948" y="3536.8857">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="948" y="3553.1826">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="948" y="3569.4795">-btnModify : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="948" y="3585.7764">-m : DefaultTableModel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="948" y="3602.0732">-btnDelete : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="948" y="3618.3701">-b : Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="943" x2="1134" y1="3625.6719" y2="3625.6719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="948" y="3642.667">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="948" y="3658.9639">+dispose() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="948" y="3675.2607">+showAvailability() : void</text></g><!--MD5=[8d816e5ff35e45f1482bb6bd637c197e]
+class ModifyAvailabilityPage--><g id="elem_ModifyAvailabilityPage"><rect codeLine="400" fill="#F1F1F1" height="325.0469" id="ModifyAvailabilityPage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="249" x="1037" y="3783"/><ellipse cx="1083.75" cy="3799" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1086.7188,3804.6406 Q1086.1406,3804.9375 1085.5,3805.0781 Q1084.8594,3805.2344 1084.1563,3805.2344 Q1081.6563,3805.2344 1080.3281,3803.5938 Q1079.0156,3801.9375 1079.0156,3798.8125 Q1079.0156,3795.6875 1080.3281,3794.0313 Q1081.6563,3792.375 1084.1563,3792.375 Q1084.8594,3792.375 1085.5,3792.5313 Q1086.1563,3792.6875 1086.7188,3792.9844 L1086.7188,3795.7031 Q1086.0938,3795.125 1085.5,3794.8594 Q1084.9063,3794.5781 1084.2813,3794.5781 Q1082.9375,3794.5781 1082.25,3795.6563 Q1081.5625,3796.7188 1081.5625,3798.8125 Q1081.5625,3800.9063 1082.25,3801.9844 Q1082.9375,3803.0469 1084.2813,3803.0469 Q1084.9063,3803.0469 1085.5,3802.7813 Q1086.0938,3802.5 1086.7188,3801.9219 L1086.7188,3804.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="1104.25" y="3803.8467">ModifyAvailabilityPage</text><line style="stroke:#181818;stroke-width:0.5;" x1="1038" x2="1285" y1="3815" y2="3815"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="1043" y="3831.9951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1043" y="3848.292">-textFieldDay : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="1043" y="3864.5889">-textFieldMonth : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="1043" y="3880.8857">-textFieldYear : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1043" y="3897.1826">-textFieldCost : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1043" y="3913.4795">-textFieldTime : JTextField</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1043" y="3929.7764">-lblDay : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1043" y="3946.0732">-lblMonth : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1043" y="3962.3701">-lblYear : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="1043" y="3978.667">-lblCost : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1043" y="3994.9639">-lblTime : JLabel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1043" y="4011.2607">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1043" y="4027.5576">-btnEnter : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="1043" y="4043.8545">-h : AppointmentAvailabilityHandler</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1043" y="4060.1514">-b : Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="1038" x2="1285" y1="4067.4531" y2="4067.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1043" y="4084.4482">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1043" y="4100.7451">+dispose() : void</text></g><!--MD5=[e137e37f5948eadd32789ca784bbab54]
+class UpcomingAppointmentsBarber--><g id="elem_UpcomingAppointmentsBarber"><rect codeLine="420" fill="#F1F1F1" height="227.2656" id="UpcomingAppointmentsBarber" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="245" x="1458" y="3447.5"/><ellipse cx="1473" cy="3463.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1475.9688,3469.1406 Q1475.3906,3469.4375 1474.75,3469.5781 Q1474.1094,3469.7344 1473.4063,3469.7344 Q1470.9063,3469.7344 1469.5781,3468.0938 Q1468.2656,3466.4375 1468.2656,3463.3125 Q1468.2656,3460.1875 1469.5781,3458.5313 Q1470.9063,3456.875 1473.4063,3456.875 Q1474.1094,3456.875 1474.75,3457.0313 Q1475.4063,3457.1875 1475.9688,3457.4844 L1475.9688,3460.2031 Q1475.3438,3459.625 1474.75,3459.3594 Q1474.1563,3459.0781 1473.5313,3459.0781 Q1472.1875,3459.0781 1471.5,3460.1563 Q1470.8125,3461.2188 1470.8125,3463.3125 Q1470.8125,3465.4063 1471.5,3466.4844 Q1472.1875,3467.5469 1473.5313,3467.5469 Q1474.1563,3467.5469 1474.75,3467.2813 Q1475.3438,3467 1475.9688,3466.4219 L1475.9688,3469.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="1487" y="3468.3467">UpcomingAppointmentsBarber</text><line style="stroke:#181818;stroke-width:0.5;" x1="1459" x2="1702" y1="3479.5" y2="3479.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="1464" y="3496.4951">-contentPane : JPanel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1464" y="3512.792">-table : JTable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="1464" y="3529.0889">-scrollPane : JScrollPane</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1464" y="3545.3857">-btnBack : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1464" y="3561.6826">-btnCancel : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="1464" y="3577.9795">-btnMarkCompleted : JButton</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="1464" y="3594.2764">-m : DefaultTableModel</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1464" y="3610.5732">-B : Barber</text><line style="stroke:#181818;stroke-width:0.5;" x1="1459" x2="1702" y1="3617.875" y2="3617.875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1464" y="3634.8701">+show() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1464" y="3651.167">+dispose() : void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="1464" y="3667.4639">+showAppointments() : void</text></g><!--MD5=[73309f794222aeaba51c58d312570d6e]
+reverse link BarberShop to Review--><g id="link_BarberShop_Review"><path codeLine="435" d="M208.3,3687.54 C208.3,3687.54 208.3,3872.5 208.3,3872.5 " fill="none" id="BarberShop-backto-Review" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="208.3,3674.54,204.3,3680.54,208.3,3686.54,212.3,3680.54,208.3,3674.54" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="172.3825" y="3861.2835">many</text></g><!--MD5=[6014b58c5b20f7e01e43d64494fe6736]
+link BarberShop to Review--><g id="link_BarberShop_Review"><path codeLine="502" d="M230.6,3674.54 C230.6,3674.54 230.6,3867.5 230.6,3867.5 " fill="none" id="BarberShop-to-Review" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="230.6,3872.5,234.6,3863.5,230.6,3867.5,226.6,3863.5,230.6,3872.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="206.6" y="3767.0869">has</text></g><!--MD5=[e4e3c2bdd9e6caac35b8c8dc721d26cc]
+reverse link Client to AppointmentConfirmed--><g id="link_Client_AppointmentConfirmed"><path codeLine="436" d="M3586.71,524.16 C3586.71,524.16 3586.71,1476 3586.71,1476 C3586.71,1476 3474.88,1476 3384.02,1476 " fill="none" id="Client-backto-AppointmentConfirmed" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="3586.71,511.16,3582.71,517.16,3586.71,523.16,3590.71,517.16,3586.71,511.16" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="3392.0954" y="1472.643">many</text></g><!--MD5=[679c86aa1d21fcfa336951b5c72a02e4]
+reverse link Barber to AppointmentConfirmed--><g id="link_Barber_AppointmentConfirmed"><path codeLine="437" d="M1876.7,1226.09 C1876.7,1226.09 1876.7,1422 1876.7,1422 C1876.7,1422 2821.76,1422 3154.93,1422 " fill="none" id="Barber-backto-AppointmentConfirmed" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1876.7,1213.09,1872.7,1219.09,1876.7,1225.09,1880.7,1219.09,1876.7,1213.09" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="3110.8515" y="1415.3523">many</text></g><!--MD5=[7de2bfc9a3aaf6e865c5eebcf11f4cc9]
+reverse link Client to Barber--><g id="link_Client_Barber"><path codeLine="438" d="M3583.36,524.47 C3583.36,524.47 3583.36,912 3583.36,912 C3583.36,912 2419.59,912 1896.24,912 " fill="none" id="Client-backto-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="3583.36,511.47,3579.36,517.47,3583.36,523.47,3587.36,517.47,3583.36,511.47" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="2831.56" y="908.0669">favorite barbers</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1904.1885" y="908.8448">many</text></g><!--MD5=[ee154088ef7b61d41a452b9be999ec1c]
+reverse link Barber to AppointmentAvailability--><g id="link_Barber_AppointmentAvailability"><path codeLine="439" d="M1838.1,1226.15 C1838.1,1226.15 1838.1,2110 1838.1,2110 C1838.1,2110 2292.11,2110 2493.84,2110 " fill="none" id="Barber-backto-AppointmentAvailability" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1838.1,1213.15,1834.1,1219.15,1838.1,1225.15,1842.1,1219.15,1838.1,1213.15" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="2449.9186" y="2099.4267">many</text></g><!--MD5=[6fd5515b027affb9b4212387b11e4696]
+link AccountData to Client--><g id="link_AccountData_Client"><path codeLine="441" d="M3140.21,3597 C3348.52,3597 3738.5,3597 3738.5,3597 C3738.5,3597 3738.5,516.26 3738.5,516.26 " fill="none" id="AccountData-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3738.5,511.26,3734.5,520.26,3738.5,516.26,3742.5,520.26,3738.5,511.26" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="3699.2938" y="531.0359">many</text></g><!--MD5=[bf2f0c0f94b5f67aee111d10133c50f0]
+link Client to AccountData--><g id="link_Client_AccountData"><path codeLine="503" d="M3704.75,511.28 C3704.75,1277.59 3704.75,3526 3704.75,3526 C3704.75,3526 3145.28,3526 3145.28,3526 " fill="none" id="Client-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3140.28,3526,3149.28,3530,3145.28,3526,3149.28,3522,3140.28,3526" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="3623.75" y="2294.4469">managed by</text></g><!--MD5=[f8b00dcdfdbbe2bb6260dd43a0e2f1e6]
+link AccountData to Barber--><g id="link_AccountData_Barber"><path codeLine="442" d="M2884.82,3614 C2562.54,3614 1741.6,3614 1741.6,3614 C1741.6,3614 1741.6,1218.11 1741.6,1218.11 " fill="none" id="AccountData-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1741.6,1213.11,1737.6,1222.11,1741.6,1218.11,1745.6,1222.11,1741.6,1213.11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="1707.648" y="1233.3749">many</text></g><!--MD5=[2afba840fb467d3e7361b18cbe055360]
+link Barber to AccountData--><g id="link_Barber_AccountData"><path codeLine="504" d="M1760.9,1213.29 C1760.9,1907.6 1760.9,3561 1760.9,3561 C1760.9,3561 2879.73,3561 2879.73,3561 " fill="none" id="Barber-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2884.73,3561,2875.73,3557,2879.73,3561,2875.73,3565,2884.73,3561" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="1679.9" y="2942.6269">managed by</text></g><!--MD5=[0866b8c0d3c96ff23d209f99171fa8a1]
+link AppointmentConfirmedHandler to Client--><g id="link_AppointmentConfirmedHandler_Client"><path codeLine="443" d="M3526.68,3946 C3636.83,3946 3772.25,3946 3772.25,3946 C3772.25,3946 3772.25,516.33 3772.25,516.33 " fill="none" id="AppointmentConfirmedHandler-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3772.25,511.33,3768.25,520.33,3772.25,516.33,3776.25,520.33,3772.25,511.33" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[59408d21375d2e2f7e32efa08233e407]
+link AppointmentConfirmedHandler to Barber--><g id="link_AppointmentConfirmedHandler_Barber"><path codeLine="444" d="M3248.39,3946 C2848.18,3946 1722.3,3946 1722.3,3946 C1722.3,3946 1722.3,1218.31 1722.3,1218.31 " fill="none" id="AppointmentConfirmedHandler-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1722.3,1213.31,1718.3,1222.31,1722.3,1218.31,1726.3,1222.31,1722.3,1213.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d85879fc724eee251fd203c9f20f5fe9]
+link AppointmentAvailabilityHandler to Barber--><g id="link_AppointmentAvailabilityHandler_Barber"><path codeLine="445" d="M1147.36,4363 C1292.14,4363 1451.22,4363 1451.22,4363 C1451.22,4363 1451.22,1218.34 1451.22,1218.34 " fill="none" id="AppointmentAvailabilityHandler-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1451.22,1213.34,1447.22,1222.34,1451.22,1218.34,1455.22,1222.34,1451.22,1213.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b1fa8a483e06c4317c3dd1f80540828]
+link Main to AccountData--><g id="link_Main_AccountData"><path codeLine="447" d="M2010.33,2267.61 C2010.33,2517.44 2010.33,3509 2010.33,3509 C2010.33,3509 2879.81,3509 2879.81,3509 " fill="none" id="Main-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2884.81,3509,2875.81,3505,2879.81,3509,2875.81,3513,2884.81,3509" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[694ff07c51475836dea3eefaa99cc408]
+link Main to BarberShop--><g id="link_Main_BarberShop"><path codeLine="448" d="M1929.87,2211 C1551.72,2211 414.5,2211 414.5,2211 C414.5,2211 414.5,3442.35 414.5,3442.35 " fill="none" id="Main-to-BarberShop" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="414.5,3447.35,418.5,3438.35,414.5,3442.35,410.5,3438.35,414.5,3447.35" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f10014ccd822ecb872ebdb3451e14594]
+link Main to mainGUI--><g id="link_Main_mainGUI"><path codeLine="449" d="M2090.67,2267.95 C2090.67,2320.69 2090.67,2391 2090.67,2391 C2090.67,2391 3008.5,2391 3008.5,2391 C3008.5,2391 3008.5,2500.78 3008.5,2500.78 " fill="none" id="Main-to-mainGUI" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3008.5,2505.78,3012.5,2496.78,3008.5,2500.78,3004.5,2496.78,3008.5,2505.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39f63fd4543306a37b4a824b479ba0e9]
+link reviewHandler to Review--><g id="link_reviewHandler_Review"><path codeLine="450" d="M133.75,3274.14 C133.75,3274.14 133.75,3867.28 133.75,3867.28 " fill="none" id="reviewHandler-to-Review" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="133.75,3872.28,137.75,3863.28,133.75,3867.28,129.75,3863.28,133.75,3872.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[597bd3965eaeec5bd5d34bac6a318f6d]
+link reviewHandler to BarberShop--><g id="link_reviewHandler_BarberShop"><path codeLine="451" d="M288.5,3274.28 C288.5,3274.28 288.5,3442.23 288.5,3442.23 " fill="none" id="reviewHandler-to-BarberShop" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="288.5,3447.23,292.5,3438.23,288.5,3442.23,284.5,3438.23,288.5,3447.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9c6cab6515493933ccd9815cf77c88a0]
+link mainGUI to ClientLoginPage--><g id="link_mainGUI_ClientLoginPage"><path codeLine="454" d="M3162.75,2652.37 C3162.75,2753.4 3162.75,2923 3162.75,2923 C3162.75,2923 3256.34,2923 3256.34,2923 " fill="none" id="mainGUI-to-ClientLoginPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3261.34,2923,3252.34,2919,3256.34,2923,3252.34,2927,3261.34,2923" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b84d5e9968f40e41e85b291e9a6a11d]
+link mainGUI to BarberLoginPage--><g id="link_mainGUI_BarberLoginPage"><path codeLine="455" d="M2981.5,2652.09 C2981.5,2652.09 2981.5,2820.3 2981.5,2820.3 " fill="none" id="mainGUI-to-BarberLoginPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2981.5,2825.3,2985.5,2816.3,2981.5,2820.3,2977.5,2816.3,2981.5,2825.3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b23c357df8f102804cf887de5251aab6]
+link ClientLoginPage to CreateNewAccountClient--><g id="link_ClientLoginPage_CreateNewAccountClient"><path codeLine="456" d="M3336.17,2987.82 C3336.17,2987.82 3336.17,3106.83 3336.17,3106.83 " fill="none" id="ClientLoginPage-to-CreateNewAccountClient" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3336.17,3111.83,3340.17,3102.83,3336.17,3106.83,3332.17,3102.83,3336.17,3111.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f26dcde5281b62845514a2e2415cdd38]
+link CreateNewAccountClient to ClientLoginPage--><g id="link_CreateNewAccountClient_ClientLoginPage"><path codeLine="533" d="M3410.83,3111.68 C3410.83,3111.68 3410.83,2992.71 3410.83,2992.71 " fill="none" id="CreateNewAccountClient-to-ClientLoginPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3410.83,2987.71,3406.83,2996.71,3410.83,2992.71,3414.83,2996.71,3410.83,2987.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce454330bcd5e6203b8958c009463667]
+link BarberLoginPage to CreateNewAccountBarber--><g id="link_BarberLoginPage_CreateNewAccountBarber"><path codeLine="457" d="M2848.17,2987.82 C2848.17,2987.82 2848.17,3106.83 2848.17,3106.83 " fill="none" id="BarberLoginPage-to-CreateNewAccountBarber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2848.17,3111.83,2852.17,3102.83,2848.17,3106.83,2844.17,3102.83,2848.17,3111.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a61d06d4281ec1ee189702620fca69a0]
+link CreateNewAccountBarber to BarberLoginPage--><g id="link_CreateNewAccountBarber_BarberLoginPage"><path codeLine="534" d="M2922.83,3111.68 C2922.83,3111.68 2922.83,2992.71 2922.83,2992.71 " fill="none" id="CreateNewAccountBarber-to-BarberLoginPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2922.83,2987.71,2918.83,2996.71,2922.83,2992.71,2926.83,2996.71,2922.83,2987.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f00ff5f5c187fef1a1f8dc514fd00cc5]
+link ClientHome to Client--><g id="link_ClientHome_Client"><path codeLine="459" d="M3213.01,2211 C3368.13,2211 3593.43,2211 3593.43,2211 C3593.43,2211 3593.43,516.19 3593.43,516.19 " fill="none" id="ClientHome-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3593.43,511.19,3589.43,520.19,3593.43,516.19,3597.43,520.19,3593.43,511.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7cb7a121e6adeb1dc9b4c2e8f01c8f92]
+link ClientHome to NewAppointmentPage--><g id="link_ClientHome_NewAppointmentPage"><path codeLine="460" d="M3126.5,2324.82 C3126.5,2400.1 3126.5,2485 3126.5,2485 C3126.5,2485 3800.79,2485 3800.79,2485 " fill="none" id="ClientHome-to-NewAppointmentPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3805.79,2485,3796.79,2481,3800.79,2485,3796.79,2489,3805.79,2485" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[22a5cbbc650938aa67b27168356a767e]
+link ClientHome to BarberShopInfo--><g id="link_ClientHome_BarberShopInfo"><path codeLine="461" d="M2935.4,2324.78 C2935.4,2406.03 2935.4,2501 2935.4,2501 C2935.4,2501 2874.69,2501 2874.69,2501 " fill="none" id="ClientHome-to-BarberShopInfo" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2869.69,2501,2878.69,2505,2874.69,2501,2878.69,2497,2869.69,2501" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[907fe210a21d7c089ac175a65b6ab3c3]
+link BarberShopInfo to ClientHome--><g id="link_BarberShopInfo_ClientHome"><path codeLine="521" d="M2869.61,2504 C2906.12,2504 2940.1,2504 2940.1,2504 C2940.1,2504 2940.1,2329.7 2940.1,2329.7 " fill="none" id="BarberShopInfo-to-ClientHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2940.1,2324.7,2936.1,2333.7,2940.1,2329.7,2944.1,2333.7,2940.1,2324.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[25b5744392c04aaa1b5e98dbb79f1c3c]
+link ClientHome to UpcomingAppointments--><g id="link_ClientHome_UpcomingAppointments"><path codeLine="462" d="M3207.5,2324.69 C3207.5,2398.11 3207.5,2480 3207.5,2480 C3207.5,2480 4375.92,2480 4375.92,2480 " fill="none" id="ClientHome-to-UpcomingAppointments" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="4380.92,2480,4371.92,2476,4375.92,2480,4371.92,2484,4380.92,2480" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae3ed72f8e4f9fda33ec69861b106a1d]
+link ClientHome to PastAppointments--><g id="link_ClientHome_PastAppointments"><path codeLine="463" d="M2930.7,2324.78 C2930.7,2393.15 2930.7,2467 2930.7,2467 C2930.7,2467 720.41,2467 720.41,2467 " fill="none" id="ClientHome-to-PastAppointments" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="715.41,2467,724.41,2471,720.41,2467,724.41,2463,715.41,2467" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[30e7cada55549ef84b621ba264c9b4f8]
+link ClientHome to FavoriteBarbersPage--><g id="link_ClientHome_FavoriteBarbersPage"><path codeLine="464" d="M3202,2324.88 C3202,2403.52 3202,2494 3202,2494 C3202,2494 3422.34,2494 3422.34,2494 " fill="none" id="ClientHome-to-FavoriteBarbersPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3427.34,2494,3418.34,2490,3422.34,2494,3418.34,2498,3427.34,2494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[648330b1d16e7be0872cd9fb8a93edf2]
+link FavoriteBarbersPage to ClientHome--><g id="link_FavoriteBarbersPage_ClientHome"><path codeLine="532" d="M3427.49,2495 C3333.07,2495 3196.5,2495 3196.5,2495 C3196.5,2495 3196.5,2329.88 3196.5,2329.88 " fill="none" id="FavoriteBarbersPage-to-ClientHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3196.5,2324.88,3192.5,2333.88,3196.5,2329.88,3200.5,2333.88,3196.5,2324.88" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[533dbbd576d43370af3c25aa929bb789]
+link BarberHome to Barber--><g id="link_BarberHome_Barber"><path codeLine="466" d="M1389.71,3226 C1406.18,3226 1417.33,3226 1417.33,3226 C1417.33,3226 1417.33,1218.03 1417.33,1218.03 " fill="none" id="BarberHome-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1417.33,1213.03,1413.33,1222.03,1417.33,1218.03,1421.33,1222.03,1417.33,1213.03" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a30ea0daf79fe00b2facba57bcf42cc1]
+link BarberHome to AvailabilityPage--><g id="link_BarberHome_AvailabilityPage"><path codeLine="467" d="M1124.67,3323.44 C1124.67,3323.44 1124.67,3433.78 1124.67,3433.78 " fill="none" id="BarberHome-to-AvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1124.67,3438.78,1128.67,3429.78,1124.67,3433.78,1120.67,3429.78,1124.67,3438.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa3bca0f1b50169152deb885b094a97a]
+link AvailabilityPage to BarberHome--><g id="link_AvailabilityPage_BarberHome"><path codeLine="537" d="M1129.83,3438.93 C1129.83,3438.93 1129.83,3328.05 1129.83,3328.05 " fill="none" id="AvailabilityPage-to-BarberHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1129.83,3323.05,1125.83,3332.05,1129.83,3328.05,1133.83,3332.05,1129.83,3323.05" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ab916adc70cc141187d36f49b105a035]
+link BarberHome to UpcomingAppointmentsBarber--><g id="link_BarberHome_UpcomingAppointmentsBarber"><path codeLine="468" d="M1355,3323.24 C1355,3410.3 1355,3524 1355,3524 C1355,3524 1452.85,3524 1452.85,3524 " fill="none" id="BarberHome-to-UpcomingAppointmentsBarber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1457.85,3524,1448.85,3520,1452.85,3524,1448.85,3528,1457.85,3524" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a049c15dda67bc5af6c776e06f315205]
+link UpcomingAppointmentsBarber to BarberHome--><g id="link_UpcomingAppointmentsBarber_BarberHome"><path codeLine="507" d="M1457.73,3599 C1390.41,3599 1320.5,3599 1320.5,3599 C1320.5,3599 1320.5,3328.14 1320.5,3328.14 " fill="none" id="UpcomingAppointmentsBarber-to-BarberHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1320.5,3323.14,1316.5,3332.14,1320.5,3328.14,1324.5,3332.14,1320.5,3323.14" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5592041458c8eb9d3502acdcf2e8b3e9]
+link BarberHome to ReviewsPage--><g id="link_BarberHome_ReviewsPage"><path codeLine="469" d="M1119.25,3291 C922.92,3291 582.17,3291 582.17,3291 C582.17,3291 582.17,3474.99 582.17,3474.99 " fill="none" id="BarberHome-to-ReviewsPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="582.17,3479.99,586.17,3470.99,582.17,3474.99,578.17,3470.99,582.17,3479.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2df9b78ab6a42c2911d0dc8730c6e3ad]
+link ReviewsPage to BarberHome--><g id="link_ReviewsPage_BarberHome"><path codeLine="541" d="M640.83,3479.93 C640.83,3405.6 640.83,3307 640.83,3307 C640.83,3307 1114.45,3307 1114.45,3307 " fill="none" id="ReviewsPage-to-BarberHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1119.45,3307,1110.45,3303,1114.45,3307,1110.45,3311,1119.45,3307" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7d6ab2053fd3b6899ef66666624bb71f]
+link NewAppointmentPage to Client--><g id="link_NewAppointmentPage_Client"><path codeLine="471" d="M3902.5,2481.16 C3902.5,2481.16 3902.5,516.38 3902.5,516.38 " fill="none" id="NewAppointmentPage-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3902.5,511.38,3898.5,520.38,3902.5,516.38,3906.5,520.38,3902.5,511.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d97b8828913cd9e319f27a131a8c095b]
+link NewAppointmentPage to SelectAvailabilityPage--><g id="link_NewAppointmentPage_SelectAvailabilityPage"><path codeLine="472" d="M3805.9,2484 C3642.99,2484 3331.17,2484 3331.17,2484 C3331.17,2484 3331.17,1970.31 3331.17,1970.31 " fill="none" id="NewAppointmentPage-to-SelectAvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3331.17,1965.31,3327.17,1974.31,3331.17,1970.31,3335.17,1974.31,3331.17,1965.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b11a11b3b76d42850ccfae51697b9db6]
+link SelectAvailabilityPage to Barber--><g id="link_SelectAvailabilityPage_Barber"><path codeLine="473" d="M3173,1852 C2854.57,1852 1857.4,1852 1857.4,1852 C1857.4,1852 1857.4,1218.3 1857.4,1218.3 " fill="none" id="SelectAvailabilityPage-to-Barber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1857.4,1213.3,1853.4,1222.3,1857.4,1218.3,1861.4,1222.3,1857.4,1213.3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5e4b76c8fc0d95cba4958489e6715976]
+link SelectAvailabilityPage to Client--><g id="link_SelectAvailabilityPage_Client"><path codeLine="474" d="M3366.12,1852 C3460.51,1852 3590.07,1852 3590.07,1852 C3590.07,1852 3590.07,516.42 3590.07,516.42 " fill="none" id="SelectAvailabilityPage-to-Client" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3590.07,511.42,3586.07,520.42,3590.07,516.42,3594.07,520.42,3590.07,511.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aa3f67442318e958212cdc863a1e7d5a]
+link SelectAvailabilityPage to ClientHome--><g id="link_SelectAvailabilityPage_ClientHome"><path codeLine="475" d="M3199.67,1965.25 C3199.67,1965.25 3199.67,2092.38 3199.67,2092.38 " fill="none" id="SelectAvailabilityPage-to-ClientHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3199.67,2097.38,3203.67,2088.38,3199.67,2092.38,3195.67,2088.38,3199.67,2097.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[19733fa395989ead5e5d798cc566f9a8]
+link PastAppointments to Client--><g id="link_PastAppointments_Client"><path codeLine="477" d="M715.12,2472 C1307.55,2472 3596.79,2472 3596.79,2472 C3596.79,2472 3596.79,516.24 3596.79,516.24 " fill="none" id="PastAppointments-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3596.79,511.24,3592.79,520.24,3596.79,516.24,3600.79,520.24,3596.79,511.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[84f0db7a13f13fff40f8204cce6fbf52]
+link PastAppointments to WriteReview--><g id="link_PastAppointments_WriteReview"><path codeLine="478" d="M483.25,2701.26 C483.25,2754.51 483.25,2805 483.25,2805 C483.25,2805 351.59,2805 351.59,2805 " fill="none" id="PastAppointments-to-WriteReview" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="346.59,2805,355.59,2809,351.59,2805,355.59,2801,346.59,2805" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ff779aa6f948219e2ef00a2f48968c32]
+link WriteReview to Client--><g id="link_WriteReview_Client"><path codeLine="479" d="M346.73,2815 C989.32,2815 3637.25,2815 3637.25,2815 C3637.25,2815 3637.25,516.07 3637.25,516.07 " fill="none" id="WriteReview-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3637.25,511.07,3633.25,520.07,3637.25,516.07,3641.25,520.07,3637.25,511.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ff779aa6f948219e2ef00a2f48968c32]
+link WriteReview to Client--><g id="link_WriteReview_Client"><path codeLine="528" d="M346.75,2819 C993.3,2819 3671,2819 3671,2819 C3671,2819 3671,516.18 3671,516.18 " fill="none" id="WriteReview-to-Client-1" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3671,511.18,3667,520.18,3671,516.18,3675,520.18,3671,511.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[eea82f7e1b371c9cb89ffb4f1c12d4e1]
+link WriteReview to Review--><g id="link_WriteReview_Review"><path codeLine="480" d="M68.38,2907 C33.6,2907 6,2907 6,2907 C6,2907 6,3946 6,3946 C6,3946 76.43,3946 76.43,3946 " fill="none" id="WriteReview-to-Review" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="81.43,3946,72.43,3942,76.43,3946,72.43,3950,81.43,3946" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cded0e9aede6b15e5107310641816095]
+link WriteReview to reviewHandler--><g id="link_WriteReview_reviewHandler"><path codeLine="481" d="M207.5,3012.28 C207.5,3012.28 207.5,3171.68 207.5,3171.68 " fill="none" id="WriteReview-to-reviewHandler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="207.5,3176.68,211.5,3167.68,207.5,3171.68,203.5,3167.68,207.5,3176.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e455fbdfb4144c05405ced265fd37831]
+link AvailabilityPage to Barber--><g id="link_AvailabilityPage_Barber"><path codeLine="483" d="M1135.31,3444 C1249.53,3444 1424.11,3444 1424.11,3444 C1424.11,3444 1424.11,1218.02 1424.11,1218.02 " fill="none" id="AvailabilityPage-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1424.11,1213.02,1420.11,1222.02,1424.11,1218.02,1428.11,1222.02,1424.11,1213.02" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b14f1eca9211582abb787d12388370b1]
+link AvailabilityPage to ModifyAvailabilityPage--><g id="link_AvailabilityPage_ModifyAvailabilityPage"><path codeLine="484" d="M1086,3683.19 C1086,3683.19 1086,3777.84 1086,3777.84 " fill="none" id="AvailabilityPage-to-ModifyAvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1086,3782.84,1090,3773.84,1086,3777.84,1082,3773.84,1086,3782.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[37097f7e9374b50b3682215aa7fd8ef9]
+link ModifyAvailabilityPage to Barber--><g id="link_ModifyAvailabilityPage_Barber"><path codeLine="485" d="M1286.02,3812 C1361.93,3812 1444.44,3812 1444.44,3812 C1444.44,3812 1444.44,1218.12 1444.44,1218.12 " fill="none" id="ModifyAvailabilityPage-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1444.44,1213.12,1440.44,1222.12,1444.44,1218.12,1448.44,1222.12,1444.44,1213.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1799ec74bead5c55080cb448c88dfa5d]
+link ModifyAvailabilityPage to AppointmentAvailabilityHandler--><g id="link_ModifyAvailabilityPage_AppointmentAvailabilityHandler"><path codeLine="486" d="M1092,4108.22 C1092,4108.22 1092,4202.91 1092,4202.91 " fill="none" id="ModifyAvailabilityPage-to-AppointmentAvailabilityHandler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1092,4207.91,1096,4198.91,1092,4202.91,1088,4198.91,1092,4207.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a550109d814b71cb0b4396a93312a79c]
+link ClientLoginPage to AccountData--><g id="link_ClientLoginPage_AccountData"><path codeLine="489" d="M3261.12,2956 C3182.39,2956 3091.2,2956 3091.2,2956 C3091.2,2956 3091.2,3450.27 3091.2,3450.27 " fill="none" id="ClientLoginPage-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3091.2,3455.27,3095.2,3446.27,3091.2,3450.27,3087.2,3446.27,3091.2,3455.27" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5577def974c0a028e9375d0240785248]
+link BarberLoginPage to AccountData--><g id="link_BarberLoginPage_AccountData"><path codeLine="490" d="M2997.86,2891 C3023.01,2891 3042.4,2891 3042.4,2891 C3042.4,2891 3042.4,3450.21 3042.4,3450.21 " fill="none" id="BarberLoginPage-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3042.4,3455.21,3046.4,3446.21,3042.4,3450.21,3038.4,3446.21,3042.4,3455.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bb0625cace516b2fbd5454680f15c3c7]
+link CreateNewAccountClient to AccountData--><g id="link_CreateNewAccountClient_AccountData"><path codeLine="491" d="M3260.38,3226 C3191.09,3226 3115.6,3226 3115.6,3226 C3115.6,3226 3115.6,3450.46 3115.6,3450.46 " fill="none" id="CreateNewAccountClient-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3115.6,3455.46,3119.6,3446.46,3115.6,3450.46,3111.6,3446.46,3115.6,3455.46" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8d12a1cad583ccf5e1cae8a373ef6bf4]
+link CreateNewAccountBarber to AccountData--><g id="link_CreateNewAccountBarber_AccountData"><path codeLine="492" d="M2951.5,3339.08 C2951.5,3339.08 2951.5,3450.45 2951.5,3450.45 " fill="none" id="CreateNewAccountBarber-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2951.5,3455.45,2955.5,3446.45,2951.5,3450.45,2947.5,3446.45,2951.5,3455.45" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[921d335041c36af132836720b503487d]
+link NewAppointmentPage to AccountData--><g id="link_NewAppointmentPage_AccountData"><path codeLine="493" d="M3805.82,2673 C3585.84,2673 3066.8,2673 3066.8,2673 C3066.8,2673 3066.8,3450.21 3066.8,3450.21 " fill="none" id="NewAppointmentPage-to-AccountData" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3066.8,3455.21,3070.8,3446.21,3066.8,3450.21,3062.8,3446.21,3066.8,3455.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[56e5ce1805fd4d672e7cef6113cd55ec]
+link SelectAvailabilityPage to AppointmentAvailability--><g id="link_SelectAvailabilityPage_AppointmentAvailability"><path codeLine="494" d="M3186.33,1965.06 C3186.33,2023.24 3186.33,2082 3186.33,2082 C3186.33,2082 2688.23,2082 2688.23,2082 " fill="none" id="SelectAvailabilityPage-to-AppointmentAvailability" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2683.23,2082,2692.23,2086,2688.23,2082,2692.23,2078,2683.23,2082" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b8ca739660d5a34495c25f9deb99381]
+link UpcomingAppointments to AppointmentConfirmedHandler--><g id="link_UpcomingAppointments_AppointmentConfirmedHandler"><path codeLine="495" d="M4380.73,2689 C4128.17,2689 3506.5,2689 3506.5,2689 C3506.5,2689 3506.5,3834.99 3506.5,3834.99 " fill="none" id="UpcomingAppointments-to-AppointmentConfirmedHandler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3506.5,3839.99,3510.5,3830.99,3506.5,3834.99,3502.5,3830.99,3506.5,3839.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[04d72b9ddab97c2f00dc2c40e3edd20f]
+link ReviewsPage to Review--><g id="link_ReviewsPage_Review"><path codeLine="496" d="M577,3642.02 C577,3748.45 577,3922 577,3922 C577,3922 302.7,3922 302.7,3922 " fill="none" id="ReviewsPage-to-Review" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="297.7,3922,306.7,3926,302.7,3922,306.7,3918,297.7,3922" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a6fbd8966af2574fbe51f8805bb8400]
+reverse link ReviewsPage to Review--><g id="link_ReviewsPage_Review"><path codeLine="539" d="M630.5,3655.29 C630.5,3655.29 630.5,3970 630.5,3970 C630.5,3970 428.23,3970 297.66,3970 " fill="none" id="ReviewsPage-backto-Review" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="630.5,3642.29,626.5,3648.29,630.5,3654.29,634.5,3648.29,630.5,3642.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[028e09dd7015a1a2cdb871d2cf2dcb4c]
+link AvailabilityPage to AppointmentAvailabilityHandler--><g id="link_AvailabilityPage_AppointmentAvailabilityHandler"><path codeLine="497" d="M989.5,3683.17 C989.5,3683.17 989.5,4202.79 989.5,4202.79 " fill="none" id="AvailabilityPage-to-AppointmentAvailabilityHandler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="989.5,4207.79,993.5,4198.79,989.5,4202.79,985.5,4198.79,989.5,4207.79" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[209e5a24a6f0cfbb51b5e2b12cef0259]
+link Client to BarberShop--><g id="link_Client_BarberShop"><path codeLine="500" d="M3579.71,175 C2791.74,175 402.75,175 402.75,175 C402.75,175 402.75,3442.37 402.75,3442.37 " fill="none" id="Client-to-BarberShop" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="402.75,3447.37,406.75,3438.37,402.75,3442.37,398.75,3438.37,402.75,3447.37" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="368.75" y="216.2669">rates</text></g><!--MD5=[76044ab348105a58f31ab5858ca97aff]
+link Barber to Review--><g id="link_Barber_Review"><path codeLine="501" d="M1430.89,1213.18 C1430.89,1937.43 1430.89,3717 1430.89,3717 C1430.89,3717 252.9,3717 252.9,3717 C252.9,3717 252.9,3867.26 252.9,3867.26 " fill="none" id="Barber-to-Review" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="252.9,3872.26,256.9,3863.26,252.9,3867.26,248.9,3863.26,252.9,3872.26" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1406.89" y="3125.2769">has</text></g><!--MD5=[fbaf6a62837adf4b19cc7ab0c4424062]
+link Review to Barber--><g id="link_Review_Barber"><path codeLine="540" d="M275.2,3872.43 C275.2,3816.9 275.2,3750 275.2,3750 C275.2,3750 1437.67,3750 1437.67,3750 C1437.67,3750 1437.67,1943.42 1437.67,1213.03 " fill="none" id="Review-Barber" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[64d4bd00290bbf40f9ff5356349fb12d]
+link UpcomingAppointmentsBarber to Barber--><g id="link_UpcomingAppointmentsBarber_Barber"><path codeLine="505" d="M1539.67,3447.18 C1539.67,3447.18 1539.67,1218.09 1539.67,1218.09 " fill="none" id="UpcomingAppointmentsBarber-to-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1539.67,1213.09,1535.67,1222.09,1539.67,1218.09,1543.67,1222.09,1539.67,1213.09" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4e5697f4d3ea7f2bf5385db85b481b3]
+link UpcomingAppointmentsBarber to AppointmentConfirmedHandler--><g id="link_UpcomingAppointmentsBarber_AppointmentConfirmedHandler"><path codeLine="506" d="M1703.25,3671 C2089.5,3671 3254.5,3671 3254.5,3671 C3254.5,3671 3254.5,3834.76 3254.5,3834.76 " fill="none" id="UpcomingAppointmentsBarber-to-AppointmentConfirmedHandler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3254.5,3839.76,3258.5,3830.76,3254.5,3834.76,3250.5,3830.76,3254.5,3839.76" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[084d06f8689cfa7e7778013362cbfb82]
+link UpcomingAppointmentsBarber to AppointmentConfirmed--><g id="link_UpcomingAppointmentsBarber_AppointmentConfirmed"><path codeLine="508" d="M1621.33,3447.45 C1621.33,3019.74 1621.33,1530 1621.33,1530 C1621.33,1530 3149.91,1530 3149.91,1530 " fill="none" id="UpcomingAppointmentsBarber-to-AppointmentConfirmed" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3154.91,1530,3145.91,1526,3149.91,1530,3145.91,1534,3154.91,1530" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0d384fa29faa7e0954e7b162672f47e9]
+link FavoriteBarbersPage to Client--><g id="link_FavoriteBarbersPage_Client"><path codeLine="509" d="M3600.14,2489.83 C3600.14,2489.83 3600.14,516.06 3600.14,516.06 " fill="none" id="FavoriteBarbersPage-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3600.14,511.06,3596.14,520.06,3600.14,516.06,3604.14,520.06,3600.14,511.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[09521ec2b917691c334d30cfa487113c]
+link FavoriteBarbersPage to Barber--><g id="link_FavoriteBarbersPage_Barber"><path codeLine="510" d="M3427.36,2497 C3074.17,2497 1780.2,2497 1780.2,2497 C1780.2,2497 1780.2,1218.39 1780.2,1218.39 " fill="none" id="FavoriteBarbersPage-to-Barber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1780.2,1213.39,1776.2,1222.39,1780.2,1218.39,1784.2,1222.39,1780.2,1213.39" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b339840d24db0b81ea5d73adb1d73c07]
+link BarberShopInfo to Client--><g id="link_BarberShopInfo_Client"><path codeLine="511" d="M2781.5,2497.77 C2781.5,2096.26 2781.5,343 2781.5,343 C2781.5,343 3574.71,343 3574.71,343 " fill="none" id="BarberShopInfo-to-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3579.71,343,3570.71,339,3574.71,343,3570.71,347,3579.71,343" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb1932eb90710b3a3289f6a9b2935188]
+link BarberShopInfo to BarberShop--><g id="link_BarberShopInfo_BarberShop"><path codeLine="512" d="M2723.25,2660.19 C2723.25,2854.64 2723.25,3331 2723.25,3331 C2723.25,3331 426.25,3331 426.25,3331 C426.25,3331 426.25,3442.35 426.25,3442.35 " fill="none" id="BarberShopInfo-to-BarberShop" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="426.25,3447.35,430.25,3438.35,426.25,3442.35,422.25,3438.35,426.25,3447.35" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[028576f9e2938e39814e9423ad62fb76]
+link ClientLoginPage to ClientHome--><g id="link_ClientLoginPage_ClientHome"><path codeLine="514" d="M3261.3,2858 C3223.63,2858 3191,2858 3191,2858 C3191,2858 3191,2329.81 3191,2329.81 " fill="none" id="ClientLoginPage-to-ClientHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3191,2324.81,3187,2333.81,3191,2329.81,3195,2333.81,3191,2324.81" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9cf1c007828c19d135f8db9c4e913ca0]
+link BarberLoginPage to BarberHome--><g id="link_BarberLoginPage_BarberHome"><path codeLine="515" d="M2773.34,2907 C2411.67,2907 1299.5,2907 1299.5,2907 C1299.5,2907 1299.5,3122.77 1299.5,3122.77 " fill="none" id="BarberLoginPage-to-BarberHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1299.5,3127.77,1303.5257,3118.7815,1299.5143,3122.77,1295.5257,3118.7586,1299.5,3127.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0448e7932a18c4a07e3130014c59d91a]
+link ClientHome to mainGUI--><g id="link_ClientHome_mainGUI"><path codeLine="516" d="M3067.5,2324.67 C3067.5,2324.67 3067.5,2500.8 3067.5,2500.8 " fill="none" id="ClientHome-to-mainGUI" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3067.5,2505.8,3071.5,2496.8,3067.5,2500.8,3063.5,2496.8,3067.5,2505.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4887c395e5dc61484b6459fb4ff47896]
+reverse link NewAppointmentPage to Barber--><g id="link_NewAppointmentPage_Barber"><path codeLine="518" d="M3792.83,2487 C3792.83,2487 1818.8,2487 1818.8,2487 C1818.8,2487 1818.8,1670.59 1818.8,1213.35 " fill="none" id="NewAppointmentPage-backto-Barber" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="3805.83,2487,3799.83,2483,3793.83,2487,3799.83,2491,3805.83,2487" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5a2b674b662a541aac3c8012f7045e9]
+link NewAppointmentPage to Barber--><g id="link_NewAppointmentPage_Barber"><path codeLine="519" d="M3805.98,2489 C3393.48,2489 1799.5,2489 1799.5,2489 C1799.5,2489 1799.5,1218.26 1799.5,1218.26 " fill="none" id="NewAppointmentPage-to-Barber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1799.5,1213.26,1795.5,1222.26,1799.5,1218.26,1803.5,1222.26,1799.5,1213.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac34eaf8be8ba44fb4e8f6965583cc63]
+link UpcomingAppointments to Client--><g id="link_UpcomingAppointments_Client"><path codeLine="522" d="M4380.87,2460 C4252.31,2460 4051,2460 4051,2460 C4051,2460 4051,1089.19 4051,511.21 " fill="none" id="UpcomingAppointments-Client" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ac34eaf8be8ba44fb4e8f6965583cc63]
+link UpcomingAppointments to Client--><g id="link_UpcomingAppointments_Client"><path codeLine="542" d="M4380.72,2462 C4244.83,2462 4025,2462 4025,2462 C4025,2462 4025,1089.52 4025,511.18 " fill="none" id="UpcomingAppointments-Client-1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[952b8ea6232fd80568f6d65d1e254953]
+reverse link UpcomingAppointments to AppointmentConfirmed--><g id="link_UpcomingAppointments_AppointmentConfirmed"><path codeLine="523" d="M4367.95,2475 C4367.95,2475 3379.5,2475 3379.5,2475 C3379.5,2475 3379.5,1921.17 3379.5,1638.03 " fill="none" id="UpcomingAppointments-backto-AppointmentConfirmed" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="4380.95,2475,4374.95,2471,4368.95,2475,4374.95,2479,4380.95,2475" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[952b8ea6232fd80568f6d65d1e254953]
+reverse link UpcomingAppointments to AppointmentConfirmed--><g id="link_UpcomingAppointments_AppointmentConfirmed"><path codeLine="543" d="M4367.78,2477 C4367.78,2477 3375,2477 3375,2477 C3375,2477 3375,1921.7 3375,1638.08 " fill="none" id="UpcomingAppointments-backto-AppointmentConfirmed-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="4380.78,2477,4374.78,2473,4368.78,2477,4374.78,2481,4380.78,2477" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2899887143827e457a49c66aa9872557]
+link PastAppointments to Barber--><g id="link_PastAppointments_Barber"><path codeLine="526" d="M715.43,2465 C951.07,2465 1403.78,2465 1403.78,2465 C1403.78,2465 1403.78,1218.28 1403.78,1218.28 " fill="none" id="PastAppointments-to-Barber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1403.78,1213.28,1399.78,1222.28,1403.78,1218.28,1407.78,1222.28,1403.78,1213.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2983203a243b40892a9108b6e587f14c]
+link PastAppointments to AppointmentConfirmed--><g id="link_PastAppointments_AppointmentConfirmed"><path codeLine="527" d="M715.05,2470 C1278.83,2470 3370.5,2470 3370.5,2470 C3370.5,2470 3370.5,1643.05 3370.5,1643.05 " fill="none" id="PastAppointments-to-AppointmentConfirmed" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3370.5,1638.05,3366.5,1647.05,3370.5,1643.05,3374.5,1647.05,3370.5,1638.05" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[afdcd592215602ae62d686f79027653c]
+link WriteReview to Barber--><g id="link_WriteReview_Barber"><path codeLine="529" d="M346.68,2808 C663.36,2808 1410.56,2808 1410.56,2808 C1410.56,2808 1410.56,1218.21 1410.56,1218.21 " fill="none" id="WriteReview-to-Barber" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1410.56,1213.21,1406.56,1222.21,1410.56,1218.21,1414.56,1222.21,1410.56,1213.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3f07b04d3fc6459c694673d674db7466]
+link WriteReview to ClientHome--><g id="link_WriteReview_ClientHome"><path codeLine="530" d="M346.53,2812 C903.66,2812 2944.8,2812 2944.8,2812 C2944.8,2812 2944.8,2329.75 2944.8,2329.75 " fill="none" id="WriteReview-to-ClientHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2944.8,2324.75,2940.8,2333.75,2944.8,2329.75,2948.8,2333.75,2944.8,2324.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ebf40ddfa456bbe875c918a8da98c0dd]
+link FavoriteBarbersPage to SelectAvailabilityPage--><g id="link_FavoriteBarbersPage_SelectAvailabilityPage"><path codeLine="531" d="M3427.3,2492 C3366.4,2492 3296.33,2492 3296.33,2492 C3296.33,2492 3296.33,1970.27 3296.33,1970.27 " fill="none" id="FavoriteBarbersPage-to-SelectAvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3296.33,1965.27,3292.33,1974.27,3296.33,1970.27,3300.33,1974.27,3296.33,1965.27" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e5f1c2ee442c52475236dc9f8f5a9b56]
+link BarberHome to mainGUI--><g id="link_BarberHome_mainGUI"><path codeLine="535" d="M1209.5,3127.82 C1209.5,3008.41 1209.5,2822 1209.5,2822 C1209.5,2822 2965.5,2822 2965.5,2822 C2965.5,2822 2965.5,2657.24 2965.5,2657.24 " fill="none" id="BarberHome-to-mainGUI" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2965.5,2652.24,2961.5,2661.24,2965.5,2657.24,2969.5,2661.24,2965.5,2652.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ab8b567db7d4491488be4748e11c78e3]
+link BarberHome to ModifyAvailabilityPage--><g id="link_BarberHome_ModifyAvailabilityPage"><path codeLine="536" d="M1185.33,3323.35 C1185.33,3323.35 1185.33,3777.92 1185.33,3777.92 " fill="none" id="BarberHome-to-ModifyAvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1185.33,3782.92,1189.33,3773.92,1185.33,3777.92,1181.33,3773.92,1185.33,3782.92" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c18c9dafa307ba51769501444543643b]
+link ModifyAvailabilityPage to BarberHome--><g id="link_ModifyAvailabilityPage_BarberHome"><path codeLine="538" d="M1235.67,3782.57 C1235.67,3782.57 1235.67,3328.07 1235.67,3328.07 " fill="none" id="ModifyAvailabilityPage-to-BarberHome" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1235.67,3323.07,1231.67,3332.07,1235.67,3328.07,1239.67,3332.07,1235.67,3323.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ed8621b9c053f510b8aacecfe4854296]
+link AppointmentConfirmed to SelectAvailabilityPage--><g id="link_AppointmentConfirmed_SelectAvailabilityPage"><path codeLine="544" d="M3269.5,1638.23 C3269.5,1638.23 3269.5,1732.76 3269.5,1732.76 " fill="none" id="AppointmentConfirmed-to-SelectAvailabilityPage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3269.5,1737.76,3273.5,1728.76,3269.5,1732.76,3265.5,1728.76,3269.5,1737.76" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e4800dedbb32d6dcdc2688d0e446bacf]
+link UpcomingAppointments to UpcomingAppointments--><g id="link_UpcomingAppointments_UpcomingAppointments"><path codeLine="545" d="M4485.5,2456.87 C4485.5,2437.66 4485.5,2424 4485.5,2424 C4485.5,2424 4608,2424 4608,2424 C4608,2424 4608,2751 4608,2751 C4608,2751 4485.5,2751 4485.5,2751 C4485.5,2751 4485.5,2706.25 4485.5,2706.25 " fill="none" id="UpcomingAppointments-to-UpcomingAppointments" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="4485.5,2701.25,4481.5,2710.25,4485.5,2706.25,4489.5,2710.25,4485.5,2701.25" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b834ee1ffabbe26c45d2b6edb47a88df]
+@startuml
+' Style settings
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+skinparam linetype ortho
+skinparam nodesep 80
+skinparam ranksep 100
+
+' Client class
+class Client {
+    - username : String
+    - password : String
+    - name : String
+    - number : String
+    - email : String
+    - creditCard : String
+    - myUpcomingAppointments : ArrayList<AppointmentConfirmed>
+    - myPastAppointments : ArrayList<AppointmentConfirmed>
+    - myFavoriteBarbers : ArrayList<Barber>
+    + getName() : String
+    + getUsername() : String
+    + getPassword() : String
+    + getNumber() : String
+    + getEmail() : String
+    + getCreditCard() : String
+    + getMyUpcomingAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyPastAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyFavoriteBarbers() : ArrayList<Barber>
+    + addAppointment(String, String, String, String, String, float) : void
+    + removeAppointmentConfirmed(String, String, String, String) : void
+    + addFavoriteBarber(Barber) : void
+    + removeFavoriteBarber(Barber) : void
+    + setUsername(String) : void
+    + setPassword(String) : void
+    + setName(String) : void
+    + setNumber(String) : void
+    + setEmail(String) : void
+    + setCreditCard(String) : void
+}
+
+' Barber class
+class Barber {
+    - username : String
+    - password : String
+    - name : String
+    - address : String
+    - experienceLevel : String
+    - specialization : String
+    - myAppointments : ArrayList<AppointmentConfirmed>
+    - myAvailability : ArrayList<AppointmentAvailability>
+    - myReviews : ArrayList<Review>
+    - ratingList : ArrayList<Integer>
+    - rating : float
+    + getName() : String
+    + getUsername() : String
+    + getPassword() : String
+    + getAddress() : String
+    + getExperienceLevel() : String
+    + getSpecialization() : String
+    + getMyAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyAvailability() : ArrayList<AppointmentAvailability>
+    + getMyReviews() : ArrayList<Review>
+    + getRating() : float
+    + addAvailability(String, String, String, String, float) : void
+    + addAppointment(String, String, String, String, String, float) : void
+    + addReview(int, String) : void
+    + removeAppointmentConfirmed(String, String, String, String) : boolean
+    + removeAppointmentAvailability(String, String, String, String) : boolean
+    + markAppointed(String, String, String, String) : boolean
+    + editAppointmentAvailability(String, String, String, String) : boolean
+    + setUsername(String) : void
+    + setPassword(String) : void
+    + setName(String) : void
+    + setAddress(String) : void
+    + setExperienceLevel(String) : void
+    + setSpecialization(String) : void
+}
+
+' Appointment classes
+class AppointmentAvailability {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - Cost : float
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getCost() : float
+    + setDay(String) : void
+    + setMonth(String) : void
+    + setYear(String) : void
+    + setTime(String) : void
+    + setCost(float) : void
+}
+
+class AppointmentConfirmed {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - barberName : String
+    - clientName : String
+    - Cost : float
+    - completed : boolean
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getBarberName() : String
+    + getClientName() : String
+    + getCost() : float
+    + isCompleted() : boolean
+    + setCompleted(boolean) : void
+}
+
+' Handler classes
+class AppointmentConfirmedHandler {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - c : Client
+    - b : Barber
+    + removeFromBarber(Barber) : void
+    + removeFromClient(String) : void
+    + removeFromBarber(String) : void
+    + addAppointmentToPast(String) : void
+}
+
+class AppointmentAvailabilityHandler {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - Cost : float
+    + modifyAvailability(Barber, String, String, String, String, float) : void
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getCost() : float
+    + setDay(String) : void
+    + setMonth(String) : void
+    + setYear(String) : void
+    + setTime(String) : void
+    + setCost(float) : void
+}
+
+' Review classes
+class Review {
+    - rating : int
+    - reviewText : String
+    + getRating() : int
+    + getReviewText() : String
+    + setRating(int) : void
+    + setReviewText(String) : void
+}
+
+class reviewHandler {
+    + addReview(Review, Barber) : void
+    + addBarberShopReview(Review) : void
+    + calculateAverageRating(ArrayList<Review>) : float
+}
+
+' System classes
+class Main {
+    + {static} systemAccounts : AccountData
+    + {static} barberShop : BarberShop
+    + main(String[]) : void
+    + initializeSystem() : void
+}
+
+class AccountData {
+    - clients : ArrayList<Client>
+    - barbers : ArrayList<Barber>
+    + getClients() : ArrayList<Client>
+    + getBarbers() : ArrayList<Barber>
+    + getSpecificBarber(String) : Barber
+    + getSpecificClient(String) : Client
+    + addClient(Client) : void
+    + addBarber(Barber) : void
+    + removeClient(Client) : void
+    + removeBarber(Barber) : void
+}
+
+class BarberShop {
+    - reviews : ArrayList<Review>
+    - rating : float
+    - address : String
+    - phoneNumber : String
+    - email : String
+    + getReviews() : ArrayList<Review>
+    + getRating() : float
+    + addReview(Review) : void
+    + getAddress() : String
+    + getPhoneNumber() : String
+    + getEmail() : String
+}
+
+' GUI classes
+class mainGUI {
+    - contentPane : JPanel
+    - btnClientLogin : JButton
+    - btnBarberLogin : JButton
+    - btnCreateNewAccount : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class ClientHome {
+    - contentPane : JPanel
+    - currentClient : Client
+    - btnScheduleNewAppointment : JButton
+    - btnGetInfo : JButton
+    - btnUpcomingAppointments : JButton
+    - btnPastAppointments : JButton
+    - btnFavoriteBarbers : JButton
+    - btnLogOut : JButton
+    - btnDelete : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class BarberHome {
+    - contentPane : JPanel
+    - b : Barber
+    - btnViewAvailability : JButton
+    - btnUpcomingAppointments : JButton
+    - btnViewRatings : JButton
+    - btnDeleteAccount : JButton
+    - btnLogOut : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class ClientLoginPage {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - btnLogin : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class BarberLoginPage {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - btnLogin : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class CreateNewAccountClient {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - textFieldName : JTextField
+    - textFieldNumber : JTextField
+    - textFieldEmail : JTextField
+    - textFieldCreditCard : JTextField
+    - btnCreate : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class CreateNewAccountBarber {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - textFieldName : JTextField
+    - textFieldAddress : JTextField
+    - textFieldExperienceLevel : JTextField
+    - textFieldSpecialization : JTextField
+    - btnCreate : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class NewAppointmentPage {
+    - contentPane : JPanel
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - listOfBarbers : JList
+    - btnSelect : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class SelectAvailabilityPage {
+    - contentPane : JPanel
+    - availabilityTable : JTable
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - btnCancel : JButton
+    - btnSelect : JButton
+    - m : DefaultTableModel
+    - selectedBarber : Barber
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class UpcomingAppointments {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    - model : DefaultTableModel
+    - btnModify : JButton
+    - txtInstructions : JTextArea
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+class PastAppointments {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnReview : JButton
+    - currentClient : Client
+    - model : DefaultTableModel
+    - btnReviewWholeBarberShop : JButton
+    - btnAddFavorite : JButton
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+class FavoriteBarbersPage {
+    - contentPane : JPanel
+    - listOfBarbers : JList
+    - scrollPane : JScrollPane
+    - btnSelect : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class BarberShopInfo {
+    - contentPane : JPanel
+    - txtInfo : JTextArea
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class WriteReview {
+    - contentPane : JPanel
+    - textFieldRating : JTextField
+    - textAreaReview : JTextArea
+    - btnSubmit : JButton
+    - btnBack : JButton
+    - appointment : AppointmentConfirmed
+    - currentClient : Client
+    - isBarberReview : boolean
+    + show() : void
+    + dispose() : void
+}
+
+class ReviewsPage {
+    - contentPane : JPanel
+    - txtReviews : JTextArea
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - currentBarber : Barber
+    + show() : void
+    + dispose() : void
+}
+
+class AvailabilityPage {
+    - contentPane : JPanel
+    - availabilityTable : JTable
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - btnCancel : JButton
+    - btnModify : JButton
+    - m : DefaultTableModel
+    - btnDelete : JButton
+    - b : Barber
+    + show() : void
+    + dispose() : void
+    + showAvailability() : void
+}
+
+class ModifyAvailabilityPage {
+    - contentPane : JPanel
+    - textFieldDay : JTextField
+    - textFieldMonth : JTextField
+    - textFieldYear : JTextField
+    - textFieldCost : JTextField
+    - textFieldTime : JTextField
+    - lblDay : JLabel
+    - lblMonth : JLabel
+    - lblYear : JLabel
+    - lblCost : JLabel
+    - lblTime : JLabel
+    - btnCancel : JButton
+    - btnEnter : JButton
+    - h : AppointmentAvailabilityHandler
+    - b : Barber
+    + show() : void
+    + dispose() : void
+}
+
+class UpcomingAppointmentsBarber {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnCancel : JButton
+    - btnMarkCompleted : JButton
+    - m : DefaultTableModel
+    - B : Barber
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+' Relationships
+BarberShop o- - "many" Review
+Client o- - "many" AppointmentConfirmed
+Barber o- - "many" AppointmentConfirmed
+Client o- - "many" Barber : favorite barbers
+Barber o- - "many" AppointmentAvailability
+
+AccountData - -> "many" Client
+AccountData - -> "many" Barber
+AppointmentConfirmedHandler - -> Client
+AppointmentConfirmedHandler - -> Barber
+AppointmentAvailabilityHandler - -> Barber
+
+Main ..> AccountData
+Main ..> BarberShop
+Main ..> mainGUI
+reviewHandler ..> Review
+reviewHandler ..> BarberShop
+
+' GUI Dependencies
+mainGUI ..> ClientLoginPage
+mainGUI ..> BarberLoginPage
+ClientLoginPage ..> CreateNewAccountClient
+BarberLoginPage ..> CreateNewAccountBarber
+
+ClientHome - -> Client
+ClientHome ..> NewAppointmentPage
+ClientHome ..> BarberShopInfo
+ClientHome ..> UpcomingAppointments
+ClientHome ..> PastAppointments
+ClientHome ..> FavoriteBarbersPage
+
+BarberHome - -> Barber
+BarberHome ..> AvailabilityPage
+BarberHome ..> UpcomingAppointmentsBarber
+BarberHome ..> ReviewsPage
+
+NewAppointmentPage - -> Client
+NewAppointmentPage ..> SelectAvailabilityPage
+SelectAvailabilityPage ..> Barber
+SelectAvailabilityPage ..> Client
+SelectAvailabilityPage ..> ClientHome
+
+PastAppointments - -> Client
+PastAppointments ..> WriteReview
+WriteReview - -> Client
+WriteReview ..> Review
+WriteReview ..> reviewHandler
+
+AvailabilityPage - -> Barber
+AvailabilityPage ..> ModifyAvailabilityPage
+ModifyAvailabilityPage - -> Barber
+ModifyAvailabilityPage ..> AppointmentAvailabilityHandler
+
+' Additional Dependencies
+ClientLoginPage ..> AccountData
+BarberLoginPage ..> AccountData
+CreateNewAccountClient ..> AccountData
+CreateNewAccountBarber ..> AccountData
+NewAppointmentPage ..> AccountData
+SelectAvailabilityPage ..> AppointmentAvailability
+UpcomingAppointments ..> AppointmentConfirmedHandler
+ReviewsPage ..> Review
+AvailabilityPage ..> AppointmentAvailabilityHandler
+
+' Missing Relationships
+Client ..> BarberShop : rates
+Barber ..> Review : has
+BarberShop ..> Review : has
+Client ..> AccountData : managed by
+Barber ..> AccountData : managed by
+UpcomingAppointmentsBarber - -> Barber
+UpcomingAppointmentsBarber ..> AppointmentConfirmedHandler
+UpcomingAppointmentsBarber ..> BarberHome
+UpcomingAppointmentsBarber ..> AppointmentConfirmed
+FavoriteBarbersPage - -> Client
+FavoriteBarbersPage ..> Barber
+BarberShopInfo - -> Client
+BarberShopInfo ..> BarberShop
+
+ClientLoginPage ..> ClientHome
+BarberLoginPage ..> BarberHome
+ClientHome ..> mainGUI
+
+NewAppointmentPage o- - Barber
+NewAppointmentPage ..> Barber
+
+BarberShopInfo ..> ClientHome
+UpcomingAppointments - - Client
+UpcomingAppointments o- - AppointmentConfirmed
+
+' New relationships
+PastAppointments ..> Barber
+PastAppointments ..> AppointmentConfirmed
+WriteReview ..> Client
+WriteReview ..> Barber
+WriteReview ..> ClientHome
+FavoriteBarbersPage ..> SelectAvailabilityPage
+FavoriteBarbersPage ..> ClientHome
+CreateNewAccountClient ..> ClientLoginPage
+CreateNewAccountBarber ..> BarberLoginPage
+BarberHome ..> mainGUI
+BarberHome ..> ModifyAvailabilityPage
+AvailabilityPage ..> BarberHome
+ModifyAvailabilityPage ..> BarberHome
+ReviewsPage o- - Review
+Review - - Barber
+ReviewsPage ..> BarberHome
+UpcomingAppointments - - Client
+UpcomingAppointments o- - AppointmentConfirmed
+AppointmentConfirmed ..> SelectAvailabilityPage
+UpcomingAppointments ..> UpcomingAppointments
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+skinparam linetype ortho
+skinparam nodesep 80
+skinparam ranksep 100
+
+class Client {
+    - username : String
+    - password : String
+    - name : String
+    - number : String
+    - email : String
+    - creditCard : String
+    - myUpcomingAppointments : ArrayList<AppointmentConfirmed>
+    - myPastAppointments : ArrayList<AppointmentConfirmed>
+    - myFavoriteBarbers : ArrayList<Barber>
+    + getName() : String
+    + getUsername() : String
+    + getPassword() : String
+    + getNumber() : String
+    + getEmail() : String
+    + getCreditCard() : String
+    + getMyUpcomingAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyPastAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyFavoriteBarbers() : ArrayList<Barber>
+    + addAppointment(String, String, String, String, String, float) : void
+    + removeAppointmentConfirmed(String, String, String, String) : void
+    + addFavoriteBarber(Barber) : void
+    + removeFavoriteBarber(Barber) : void
+    + setUsername(String) : void
+    + setPassword(String) : void
+    + setName(String) : void
+    + setNumber(String) : void
+    + setEmail(String) : void
+    + setCreditCard(String) : void
+}
+
+class Barber {
+    - username : String
+    - password : String
+    - name : String
+    - address : String
+    - experienceLevel : String
+    - specialization : String
+    - myAppointments : ArrayList<AppointmentConfirmed>
+    - myAvailability : ArrayList<AppointmentAvailability>
+    - myReviews : ArrayList<Review>
+    - ratingList : ArrayList<Integer>
+    - rating : float
+    + getName() : String
+    + getUsername() : String
+    + getPassword() : String
+    + getAddress() : String
+    + getExperienceLevel() : String
+    + getSpecialization() : String
+    + getMyAppointments() : ArrayList<AppointmentConfirmed>
+    + getMyAvailability() : ArrayList<AppointmentAvailability>
+    + getMyReviews() : ArrayList<Review>
+    + getRating() : float
+    + addAvailability(String, String, String, String, float) : void
+    + addAppointment(String, String, String, String, String, float) : void
+    + addReview(int, String) : void
+    + removeAppointmentConfirmed(String, String, String, String) : boolean
+    + removeAppointmentAvailability(String, String, String, String) : boolean
+    + markAppointed(String, String, String, String) : boolean
+    + editAppointmentAvailability(String, String, String, String) : boolean
+    + setUsername(String) : void
+    + setPassword(String) : void
+    + setName(String) : void
+    + setAddress(String) : void
+    + setExperienceLevel(String) : void
+    + setSpecialization(String) : void
+}
+
+class AppointmentAvailability {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - Cost : float
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getCost() : float
+    + setDay(String) : void
+    + setMonth(String) : void
+    + setYear(String) : void
+    + setTime(String) : void
+    + setCost(float) : void
+}
+
+class AppointmentConfirmed {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - barberName : String
+    - clientName : String
+    - Cost : float
+    - completed : boolean
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getBarberName() : String
+    + getClientName() : String
+    + getCost() : float
+    + isCompleted() : boolean
+    + setCompleted(boolean) : void
+}
+
+class AppointmentConfirmedHandler {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - c : Client
+    - b : Barber
+    + removeFromBarber(Barber) : void
+    + removeFromClient(String) : void
+    + removeFromBarber(String) : void
+    + addAppointmentToPast(String) : void
+}
+
+class AppointmentAvailabilityHandler {
+    - Day : String
+    - Month : String
+    - Year : String
+    - Time : String
+    - Cost : float
+    + modifyAvailability(Barber, String, String, String, String, float) : void
+    + getDay() : String
+    + getMonth() : String
+    + getYear() : String
+    + getTime() : String
+    + getCost() : float
+    + setDay(String) : void
+    + setMonth(String) : void
+    + setYear(String) : void
+    + setTime(String) : void
+    + setCost(float) : void
+}
+
+class Review {
+    - rating : int
+    - reviewText : String
+    + getRating() : int
+    + getReviewText() : String
+    + setRating(int) : void
+    + setReviewText(String) : void
+}
+
+class reviewHandler {
+    + addReview(Review, Barber) : void
+    + addBarberShopReview(Review) : void
+    + calculateAverageRating(ArrayList<Review>) : float
+}
+
+class Main {
+    + {static} systemAccounts : AccountData
+    + {static} barberShop : BarberShop
+    + main(String[]) : void
+    + initializeSystem() : void
+}
+
+class AccountData {
+    - clients : ArrayList<Client>
+    - barbers : ArrayList<Barber>
+    + getClients() : ArrayList<Client>
+    + getBarbers() : ArrayList<Barber>
+    + getSpecificBarber(String) : Barber
+    + getSpecificClient(String) : Client
+    + addClient(Client) : void
+    + addBarber(Barber) : void
+    + removeClient(Client) : void
+    + removeBarber(Barber) : void
+}
+
+class BarberShop {
+    - reviews : ArrayList<Review>
+    - rating : float
+    - address : String
+    - phoneNumber : String
+    - email : String
+    + getReviews() : ArrayList<Review>
+    + getRating() : float
+    + addReview(Review) : void
+    + getAddress() : String
+    + getPhoneNumber() : String
+    + getEmail() : String
+}
+
+class mainGUI {
+    - contentPane : JPanel
+    - btnClientLogin : JButton
+    - btnBarberLogin : JButton
+    - btnCreateNewAccount : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class ClientHome {
+    - contentPane : JPanel
+    - currentClient : Client
+    - btnScheduleNewAppointment : JButton
+    - btnGetInfo : JButton
+    - btnUpcomingAppointments : JButton
+    - btnPastAppointments : JButton
+    - btnFavoriteBarbers : JButton
+    - btnLogOut : JButton
+    - btnDelete : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class BarberHome {
+    - contentPane : JPanel
+    - b : Barber
+    - btnViewAvailability : JButton
+    - btnUpcomingAppointments : JButton
+    - btnViewRatings : JButton
+    - btnDeleteAccount : JButton
+    - btnLogOut : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class ClientLoginPage {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - btnLogin : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class BarberLoginPage {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - btnLogin : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class CreateNewAccountClient {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - textFieldName : JTextField
+    - textFieldNumber : JTextField
+    - textFieldEmail : JTextField
+    - textFieldCreditCard : JTextField
+    - btnCreate : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class CreateNewAccountBarber {
+    - contentPane : JPanel
+    - textFieldUsername : JTextField
+    - textFieldPassword : JTextField
+    - textFieldName : JTextField
+    - textFieldAddress : JTextField
+    - textFieldExperienceLevel : JTextField
+    - textFieldSpecialization : JTextField
+    - btnCreate : JButton
+    - btnBack : JButton
+    + show() : void
+    + dispose() : void
+}
+
+class NewAppointmentPage {
+    - contentPane : JPanel
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - listOfBarbers : JList
+    - btnSelect : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class SelectAvailabilityPage {
+    - contentPane : JPanel
+    - availabilityTable : JTable
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - btnCancel : JButton
+    - btnSelect : JButton
+    - m : DefaultTableModel
+    - selectedBarber : Barber
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class UpcomingAppointments {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    - model : DefaultTableModel
+    - btnModify : JButton
+    - txtInstructions : JTextArea
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+class PastAppointments {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnReview : JButton
+    - currentClient : Client
+    - model : DefaultTableModel
+    - btnReviewWholeBarberShop : JButton
+    - btnAddFavorite : JButton
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+class FavoriteBarbersPage {
+    - contentPane : JPanel
+    - listOfBarbers : JList
+    - scrollPane : JScrollPane
+    - btnSelect : JButton
+    - btnCancel : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class BarberShopInfo {
+    - contentPane : JPanel
+    - txtInfo : JTextArea
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - currentClient : Client
+    + show() : void
+    + dispose() : void
+}
+
+class WriteReview {
+    - contentPane : JPanel
+    - textFieldRating : JTextField
+    - textAreaReview : JTextArea
+    - btnSubmit : JButton
+    - btnBack : JButton
+    - appointment : AppointmentConfirmed
+    - currentClient : Client
+    - isBarberReview : boolean
+    + show() : void
+    + dispose() : void
+}
+
+class ReviewsPage {
+    - contentPane : JPanel
+    - txtReviews : JTextArea
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - currentBarber : Barber
+    + show() : void
+    + dispose() : void
+}
+
+class AvailabilityPage {
+    - contentPane : JPanel
+    - availabilityTable : JTable
+    - lblInstructionLabel : JLabel
+    - scrollPane : JScrollPane
+    - btnCancel : JButton
+    - btnModify : JButton
+    - m : DefaultTableModel
+    - btnDelete : JButton
+    - b : Barber
+    + show() : void
+    + dispose() : void
+    + showAvailability() : void
+}
+
+class ModifyAvailabilityPage {
+    - contentPane : JPanel
+    - textFieldDay : JTextField
+    - textFieldMonth : JTextField
+    - textFieldYear : JTextField
+    - textFieldCost : JTextField
+    - textFieldTime : JTextField
+    - lblDay : JLabel
+    - lblMonth : JLabel
+    - lblYear : JLabel
+    - lblCost : JLabel
+    - lblTime : JLabel
+    - btnCancel : JButton
+    - btnEnter : JButton
+    - h : AppointmentAvailabilityHandler
+    - b : Barber
+    + show() : void
+    + dispose() : void
+}
+
+class UpcomingAppointmentsBarber {
+    - contentPane : JPanel
+    - table : JTable
+    - scrollPane : JScrollPane
+    - btnBack : JButton
+    - btnCancel : JButton
+    - btnMarkCompleted : JButton
+    - m : DefaultTableModel
+    - B : Barber
+    + show() : void
+    + dispose() : void
+    + showAppointments() : void
+}
+
+BarberShop o- - "many" Review
+Client o- - "many" AppointmentConfirmed
+Barber o- - "many" AppointmentConfirmed
+Client o- - "many" Barber : favorite barbers
+Barber o- - "many" AppointmentAvailability
+
+AccountData - -> "many" Client
+AccountData - -> "many" Barber
+AppointmentConfirmedHandler - -> Client
+AppointmentConfirmedHandler - -> Barber
+AppointmentAvailabilityHandler - -> Barber
+
+Main ..> AccountData
+Main ..> BarberShop
+Main ..> mainGUI
+reviewHandler ..> Review
+reviewHandler ..> BarberShop
+
+mainGUI ..> ClientLoginPage
+mainGUI ..> BarberLoginPage
+ClientLoginPage ..> CreateNewAccountClient
+BarberLoginPage ..> CreateNewAccountBarber
+
+ClientHome - -> Client
+ClientHome ..> NewAppointmentPage
+ClientHome ..> BarberShopInfo
+ClientHome ..> UpcomingAppointments
+ClientHome ..> PastAppointments
+ClientHome ..> FavoriteBarbersPage
+
+BarberHome - -> Barber
+BarberHome ..> AvailabilityPage
+BarberHome ..> UpcomingAppointmentsBarber
+BarberHome ..> ReviewsPage
+
+NewAppointmentPage - -> Client
+NewAppointmentPage ..> SelectAvailabilityPage
+SelectAvailabilityPage ..> Barber
+SelectAvailabilityPage ..> Client
+SelectAvailabilityPage ..> ClientHome
+
+PastAppointments - -> Client
+PastAppointments ..> WriteReview
+WriteReview - -> Client
+WriteReview ..> Review
+WriteReview ..> reviewHandler
+
+AvailabilityPage - -> Barber
+AvailabilityPage ..> ModifyAvailabilityPage
+ModifyAvailabilityPage - -> Barber
+ModifyAvailabilityPage ..> AppointmentAvailabilityHandler
+
+ClientLoginPage ..> AccountData
+BarberLoginPage ..> AccountData
+CreateNewAccountClient ..> AccountData
+CreateNewAccountBarber ..> AccountData
+NewAppointmentPage ..> AccountData
+SelectAvailabilityPage ..> AppointmentAvailability
+UpcomingAppointments ..> AppointmentConfirmedHandler
+ReviewsPage ..> Review
+AvailabilityPage ..> AppointmentAvailabilityHandler
+
+Client ..> BarberShop : rates
+Barber ..> Review : has
+BarberShop ..> Review : has
+Client ..> AccountData : managed by
+Barber ..> AccountData : managed by
+UpcomingAppointmentsBarber - -> Barber
+UpcomingAppointmentsBarber ..> AppointmentConfirmedHandler
+UpcomingAppointmentsBarber ..> BarberHome
+UpcomingAppointmentsBarber ..> AppointmentConfirmed
+FavoriteBarbersPage - -> Client
+FavoriteBarbersPage ..> Barber
+BarberShopInfo - -> Client
+BarberShopInfo ..> BarberShop
+
+ClientLoginPage ..> ClientHome
+BarberLoginPage ..> BarberHome
+ClientHome ..> mainGUI
+
+NewAppointmentPage o- - Barber
+NewAppointmentPage ..> Barber
+
+BarberShopInfo ..> ClientHome
+UpcomingAppointments - - Client
+UpcomingAppointments o- - AppointmentConfirmed
+
+PastAppointments ..> Barber
+PastAppointments ..> AppointmentConfirmed
+WriteReview ..> Client
+WriteReview ..> Barber
+WriteReview ..> ClientHome
+FavoriteBarbersPage ..> SelectAvailabilityPage
+FavoriteBarbersPage ..> ClientHome
+CreateNewAccountClient ..> ClientLoginPage
+CreateNewAccountBarber ..> BarberLoginPage
+BarberHome ..> mainGUI
+BarberHome ..> ModifyAvailabilityPage
+AvailabilityPage ..> BarberHome
+ModifyAvailabilityPage ..> BarberHome
+ReviewsPage o- - Review
+Review - - Barber
+ReviewsPage ..> BarberHome
+UpcomingAppointments - - Client
+UpcomingAppointments o- - AppointmentConfirmed
+AppointmentConfirmed ..> SelectAvailabilityPage
+UpcomingAppointments ..> UpcomingAppointments
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

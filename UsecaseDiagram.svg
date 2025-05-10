@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="366px" preserveAspectRatio="none" style="width:3290px;height:366px;background:#FFFFFF;" version="1.1" viewBox="0 0 3290 366" width="3290px" zoomAndPan="magnify"><defs/><g><!--MD5=[cfb1761ee522f84df39215f5702c2b08]
+cluster Client Use Cases--><g id="cluster_Client Use Cases"><rect fill="none" height="228.5" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1446" x="7" y="132"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="133" x="663.5" y="146.9951">Client Use Cases</text></g><!--MD5=[17cafccae56e33e75145a5a7c8292e4a]
+cluster Barber Use Cases--><g id="cluster_Barber Use Cases"><rect fill="none" height="232" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1507" x="1669" y="128.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="2352" y="143.4951">Barber Use Cases</text></g><g id="elem_UC1"><ellipse cx="311.8844" cy="188.9769" fill="#ADD8E6" rx="75.3844" ry="17.4769" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="255.3844" y="192.7244">Create Account</text></g><g id="elem_UC2"><ellipse cx="1033.2231" cy="189.0485" fill="#ADD8E6" rx="37.7231" ry="14.5485" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1013.1116" y="192.4312">Login</text></g><g id="elem_UC3"><ellipse cx="1202.7599" cy="188.852" fill="#ADD8E6" rx="97.2599" ry="21.852" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1123.7599" y="191.6987">Schedule Appointment</text></g><g id="elem_UC4"><ellipse cx="510.834" cy="317.8668" fill="#ADD8E6" rx="119.834" ry="26.3668" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="407.334" y="320.7135">View Upcoming Appointments</text></g><g id="elem_UC5"><ellipse cx="112.2318" cy="189.2464" fill="#ADD8E6" rx="89.2318" ry="20.2464" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="42.2318" y="192.093">Cancel Appointment</text></g><g id="elem_UC8"><ellipse cx="700.113" cy="189.1226" fill="#ADD8E6" rx="66.113" ry="15.6226" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="656.113" y="192.8702">Rate Barber</text></g><g id="elem_UC9"><ellipse cx="880.8735" cy="188.7747" fill="#ADD8E6" rx="79.3735" ry="18.2747" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="820.4676" y="192.2248">Rate Barbershop</text></g><g id="elem_UC19"><ellipse cx="1385.8615" cy="189.1946" fill="#ADD8E6" rx="50.3615" ry="14.6946" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="1355.8615" y="192.9422">Get Info</text></g><g id="elem_UC20"><ellipse cx="880.8371" cy="318.1674" fill="#ADD8E6" rx="101.3371" ry="22.6674" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="797.3371" y="321.0141">View Past Appointments</text></g><g id="elem_UC21"><ellipse cx="510.9128" cy="188.9826" fill="#ADD8E6" rx="87.9128" ry="19.9826" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="442.4128" y="191.8292">Modify Appointment</text></g><g id="elem_UC22"><ellipse cx="1311.2318" cy="318.2464" fill="#ADD8E6" rx="89.2318" ry="20.2464" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1241.2318" y="321.093">View Favorite Barber</text></g><g id="elem_UC11"><ellipse cx="1760.8844" cy="188.9769" fill="#ADD8E6" rx="75.3844" ry="17.4769" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="1704.3844" y="192.7244">Create Account</text></g><g id="elem_UC12"><ellipse cx="1909.2231" cy="189.0485" fill="#ADD8E6" rx="37.7231" ry="14.5485" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="1889.1116" y="192.4312">Login</text></g><g id="elem_UC13"><ellipse cx="2309.834" cy="317.8668" fill="#ADD8E6" rx="119.834" ry="26.3668" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="2206.334" y="320.7135">View Upcoming Appointments</text></g><g id="elem_UC14"><ellipse cx="2734.2198" cy="318.244" fill="#ADD8E6" rx="74.2198" ry="17.244" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="2679.2198" y="321.9915">View Availability</text></g><g id="elem_UC15"><ellipse cx="2733.9652" cy="189.193" fill="#ADD8E6" rx="78.9652" ry="18.193" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2673.9" y="192.6886">Modify Availability</text></g><g id="elem_UC16"><ellipse cx="2539.7839" cy="188.8568" fill="#ADD8E6" rx="79.7839" ry="18.3568" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="2479.0356" y="192.2613">Delete Availability</text></g><g id="elem_UC17"><ellipse cx="2310.1614" cy="188.9323" fill="#ADD8E6" rx="115.1614" ry="25.4323" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="2211.6614" y="191.779">Mark Appointment Complete</text></g><g id="elem_UC18"><ellipse cx="2071.2318" cy="189.2464" fill="#ADD8E6" rx="89.2318" ry="20.2464" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="2001.2318" y="192.093">Cancel Appointment</text></g><g id="elem_UC23"><ellipse cx="2913.92" cy="188.984" fill="#ADD8E6" rx="65.42" ry="15.484" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="2870.92" y="192.7316">View Rating</text></g><g id="elem_UC24"><ellipse cx="3086.8073" cy="188.8615" fill="#ADD8E6" rx="72.3073" ry="16.8615" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="3034.3073" y="192.609">Add Availability</text></g><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><g id="elem_Client"><ellipse cx="1386" cy="14" fill="#ADD8E6" rx="8" ry="8" style="stroke:#00008B;stroke-width:0.5;"/><path d="M1386,22 L1386,49 M1373,30 L1399,30 M1386,49 L1373,64 M1386,49 L1399,64 " fill="none" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="1366.5" y="78.4951">Client</text></g><!--MD5=[6fe2f7e39be47053bf63abda3fc956a1]
+entity Barber--><g id="elem_Barber"><ellipse cx="2994" cy="14" fill="#ADD8E6" rx="8" ry="8" style="stroke:#00008B;stroke-width:0.5;"/><path d="M2994,22 L2994,49 M2981,30 L3007,30 M2994,49 L2981,64 M2994,49 L3007,64 " fill="none" style="stroke:#00008B;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="2971" y="78.4951">Barber</text></g><!--MD5=[d67561ca03e24b92f033d35be8fc0abf]
+link Client to UC1--><g id="link_Client_UC1"><path d="M1366.26,44.58 C1244.14,45.27 590.76,52.15 405,120.5 C376.8,130.88 349.59,152.41 331.97,168.37 " fill="none" id="Client-to-UC1" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="328.14,171.9,337.474,168.7573,331.8222,168.5175,332.062,162.8657,328.14,171.9" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[10977eb1210c195d7a7c6d2b7f195dd5]
+link Client to UC2--><g id="link_Client_UC2"><path d="M1366.21,45.33 C1315.85,48.29 1180.24,61.58 1088,120.5 C1068.49,132.96 1052.64,154.67 1043.05,170.11 " fill="none" id="Client-to-UC2" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1040.28,174.68,1048.3763,169.072,1042.8797,170.409,1041.5427,164.9124,1040.28,174.68" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[db1c23ca88c5cbb995f0eb743e037f2c]
+link Client to UC3--><g id="link_Client_UC3"><path d="M1366.42,59.86 C1334.39,84.97 1270.61,134.99 1232.9,164.56 " fill="none" id="Client-to-UC3" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1228.88,167.71,1238.4328,165.3132,1232.8175,164.6285,1233.5023,159.0132,1228.88,167.71" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[965677e8afe9f0f16f61ba641cad8827]
+link Client to UC4--><g id="link_Client_UC4"><path d="M1405.79,59.49 C1422.22,73.28 1444.4,95.36 1454,120.5 C1468.91,159.53 1477.59,180.02 1454,214.5 C1421.42,262.11 1389.41,249.39 1333,261.5 C1084.53,314.85 1015.38,271.98 762,291.5 C715.85,295.05 665.03,300.02 621.26,304.63 " fill="none" id="Client-to-UC4" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="616.23,305.16,625.6025,308.186,621.202,304.6314,624.7567,300.2309,616.23,305.16" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[52d515158f0150ad1ed5dd94b4d44b20]
+link Client to UC20--><g id="link_Client_UC20"><path d="M1405.78,48.06 C1435.78,54.64 1491.81,71.83 1516,111.5 C1550.7,168.42 1561.04,212.35 1516,261.5 C1511.52,266.39 1158.01,295.05 980.46,309.16 " fill="none" id="Client-to-UC20" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="975.26,309.57,984.5511,312.8374,980.244,309.1701,983.9113,304.8631,975.26,309.57" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[1ce092281fb4481ecb0c39bedebf5a1e]
+link Client to UC19--><g id="link_Client_UC19"><path d="M1386,81.83 C1386,109.97 1386,147.36 1386,169.44 " fill="none" id="Client-to-UC19" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1386,174.44,1390,165.44,1386,169.44,1382,165.44,1386,174.44" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[1fa49215bea462036f2fa6edfdcaf740]
+link Client to UC22--><g id="link_Client_UC22"><path d="M1405.72,44.16 C1447.46,44.65 1544.41,52.42 1587,111.5 C1625.98,165.58 1629.24,209.92 1587,261.5 C1563.64,290.03 1471.94,304.21 1400.58,311.04 " fill="none" id="Client-to-UC22" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1395.48,311.52,1404.8174,314.6525,1400.4577,311.048,1404.0622,306.6882,1395.48,311.52" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[bce903564b6021f2e142885a27c2c3a3]
+link Barber to UC11--><g id="link_Barber_UC11"><path d="M2970.61,44.31 C2827.56,43.4 2069.9,42.38 1854,120.5 C1825.75,130.72 1798.55,152.28 1780.94,168.3 " fill="none" id="Barber-to-UC11" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1777.12,171.83,1786.4412,168.6496,1780.7885,168.4327,1781.0055,162.78,1777.12,171.83" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[90875045194af13fa12d1780ef89c79c]
+link Barber to UC12--><g id="link_Barber_UC12"><path d="M2970.75,46.29 C2867.01,54.25 2435.95,87.2 2082,112.5 C2056.01,114.36 1988.2,108.62 1965,120.5 C1944,131.26 1927.9,153.72 1918.47,169.78 " fill="none" id="Barber-to-UC12" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="1915.76,174.54,1923.6879,168.6963,1918.233,170.1944,1916.7349,164.7395,1915.76,174.54" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[67110ef3feddb317f6bcbef5fd142c0d]
+link Barber to UC13--><g id="link_Barber_UC13"><path d="M3017.3,46.24 C3057.92,50.69 3140.81,66.28 3177,120.5 C3200.19,155.25 3204.63,183.17 3177,214.5 C3152.42,242.38 2656.37,287.72 2425.88,307.39 " fill="none" id="Barber-to-UC13" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="2420.82,307.82,2430.1295,311.0345,2425.8016,307.3918,2429.4444,303.0639,2420.82,307.82" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[04f290ae3234ef7d61f26b6e12c1d3f7]
+link Barber to UC14--><g id="link_Barber_UC14"><path d="M3017.25,47.3 C3073.02,54.53 3211.78,75.83 3239,111.5 C3279.45,164.49 3283.49,211.85 3239,261.5 C3211.01,292.73 2945.91,308.19 2811.43,314.07 " fill="none" id="Barber-to-UC14" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="2806.31,314.3,2815.473,317.911,2811.3054,314.0859,2815.1305,309.9183,2806.31,314.3" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[445464b54ea6650eee298034fe4ca633]
+link Barber to UC23--><g id="link_Barber_UC23"><path d="M2973.19,81.83 C2957.63,109.74 2936.99,146.76 2924.65,168.9 " fill="none" id="Barber-to-UC23" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="2922.15,173.39,2930.0174,167.4652,2924.5782,169.0192,2923.0242,163.58,2922.15,173.39" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[7faa058c529a7666f146bdccc5c599c0]
+link Barber to UC24--><g id="link_Barber_UC24"><path d="M3017.23,80.34 C3035.08,107.89 3059.11,144.96 3073.8,167.63 " fill="none" id="Barber-to-UC24" style="stroke:#00008B;stroke-width:1.0;"/><polygon fill="#00008B" points="3076.61,171.97,3075.0845,162.24,3073.8961,167.7706,3068.3655,166.5822,3076.61,171.97" style="stroke:#00008B;stroke-width:1.0;"/></g><!--MD5=[42d0fdfc7272d0e640e7206aad1439fa]
+link UC5 to UC4--><g id="link_UC5_UC4"><path d="M161.33,205.7 C231.1,227.91 359.05,268.63 439.32,294.18 " fill="none" id="UC5-to-UC4" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="444.53,295.84,437.1616,289.3049,439.7642,294.3275,434.7417,296.9301,444.53,295.84" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="337" y="257.5669">«extend»</text></g><!--MD5=[f8bb54fd5da0db72720744e5207f0628]
+link UC21 to UC4--><g id="link_UC21_UC4"><path d="M511,209.01 C511,229.43 511,262.17 511,286.25 " fill="none" id="UC21-to-UC4" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="511,291.25,515,282.25,511,286.25,507,282.25,511,291.25" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="512" y="257.5669">«extend»</text></g><!--MD5=[7b05b64a3e587d14b749c61e268eddae]
+link UC15 to UC14--><g id="link_UC15_UC14"><path d="M2734,207.13 C2734,230.14 2734,271 2734,295.89 " fill="none" id="UC15-to-UC14" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="2734,300.94,2738,291.94,2734,295.94,2730,291.94,2734,300.94" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="2735" y="257.5669">«extend»</text></g><!--MD5=[6ca1d41f76a95f35024cad5f1b1998ed]
+link UC16 to UC14--><g id="link_UC16_UC14"><path d="M2565.36,206.6 C2601.78,230.44 2668.64,274.21 2706.31,298.87 " fill="none" id="UC16-to-UC14" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="2710.75,301.78,2705.4146,293.5015,2706.5679,299.0395,2701.0299,300.1928,2710.75,301.78" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="2649" y="257.5669">«extend»</text></g><!--MD5=[ede84c6d151d2dde524e7f5e4f67d8ac]
+link UC17 to UC13--><g id="link_UC17_UC13"><path d="M2310,214.79 C2310,235.24 2310,264.35 2310,286.28 " fill="none" id="UC17-to-UC13" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="2310,291.4,2314,282.4,2310,286.4,2306,282.4,2310,291.4" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="2311" y="257.5669">«extend»</text></g><!--MD5=[a4f739564b9ad7be6b986f97957b22f7]
+link UC18 to UC13--><g id="link_UC18_UC13"><path d="M2104.23,207.66 C2144.86,229.25 2213.99,265.98 2260.79,290.85 " fill="none" id="UC18-to-UC13" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="2265.25,293.22,2259.1755,285.4675,2260.8335,290.876,2255.4251,292.5339,2265.25,293.22" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="2205" y="257.5669">«extend»</text></g><!--MD5=[e41f45db9769d8035d1324c85e3b9182]
+link UC8 to UC20--><g id="link_UC8_UC20"><path d="M719.71,203.83 C750.27,225.27 809.43,266.78 846.98,293.13 " fill="none" id="UC8-to-UC20" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="851.45,296.27,846.3727,287.8307,847.3545,293.4017,841.7835,294.3835,851.45,296.27" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="802" y="257.5669">«extend»</text></g><!--MD5=[078b35da9df694bfa8a536477bfa8f76]
+link UC9 to UC20--><g id="link_UC9_UC20"><path d="M881,207.66 C881,229.04 881,265.26 881,290.12 " fill="none" id="UC9-to-UC20" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="881,295.24,885,286.24,881,290.24,877,286.24,881,295.24" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="882" y="257.5669">«extend»</text></g><!--MD5=[f3744ae1d3b90e2ab91430e3aaee0170]
+link UC3 to UC22--><g id="link_UC3_UC22"><path d="M1220.59,210.69 C1240.03,233.54 1271.25,270.25 1291.44,294 " fill="none" id="UC3-to-UC22" style="stroke:#00008B;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#00008B" points="1294.83,297.98,1292.0304,288.5374,1291.5843,294.1767,1285.9451,293.7306,1294.83,297.98" style="stroke:#00008B;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1264" y="257.5669">«extend»</text></g><!--MD5=[2e6467dd77983c18a70ce1c833815496]
+@startuml
+skinparam usecase {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+    ArrowColor DarkBlue
+    ActorBorderColor DarkBlue
+}
+
+skinparam actor {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+' Actors
+actor Client
+actor Barber
+
+' Client Use Cases
+rectangle "Client Use Cases" {
+    usecase "Create Account" as UC1
+    usecase "Login" as UC2
+    usecase "Schedule Appointment" as UC3
+    usecase "View Upcoming Appointments" as UC4
+    usecase "Cancel Appointment" as UC5
+    usecase "Rate Barber" as UC8
+    usecase "Rate Barbershop" as UC9
+    usecase "Get Info" as UC19
+    usecase "View Past Appointments" as UC20
+    usecase "Modify Appointment" as UC21
+    usecase "View Favorite Barber" as UC22
+}
+
+' Barber Use Cases
+rectangle "Barber Use Cases" {
+    usecase "Create Account" as UC11
+    usecase "Login" as UC12
+    usecase "View Upcoming Appointments" as UC13
+    usecase "View Availability" as UC14
+    usecase "Modify Availability" as UC15
+    usecase "Delete Availability" as UC16
+    usecase "Mark Appointment Complete" as UC17
+    usecase "Cancel Appointment" as UC18
+    usecase "View Rating" as UC23
+    usecase "Add Availability" as UC24
+}
+
+' Direct Relationships
+Client - -> UC1
+Client - -> UC2
+Client - -> UC3
+Client - -> UC4
+Client - -> UC20
+Client - -> UC19
+Client - -> UC22
+
+Barber - -> UC11
+Barber - -> UC12
+Barber - -> UC13
+Barber - -> UC14
+Barber - -> UC23
+Barber - -> UC24
+
+' Extend relationships
+UC5 ..> UC4 : <<extend>>
+UC21 ..> UC4 : <<extend>>
+UC15 ..> UC14 : <<extend>>
+UC16 ..> UC14 : <<extend>>
+UC17 ..> UC13 : <<extend>>
+UC18 ..> UC13 : <<extend>>
+UC8 ..> UC20 : <<extend>>
+UC9 ..> UC20 : <<extend>>
+UC3 ..> UC22 : <<extend>>
+@enduml
+
+@startuml
+skinparam usecase {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+    ArrowColor DarkBlue
+    ActorBorderColor DarkBlue
+}
+
+skinparam actor {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+actor Client
+actor Barber
+
+rectangle "Client Use Cases" {
+    usecase "Create Account" as UC1
+    usecase "Login" as UC2
+    usecase "Schedule Appointment" as UC3
+    usecase "View Upcoming Appointments" as UC4
+    usecase "Cancel Appointment" as UC5
+    usecase "Rate Barber" as UC8
+    usecase "Rate Barbershop" as UC9
+    usecase "Get Info" as UC19
+    usecase "View Past Appointments" as UC20
+    usecase "Modify Appointment" as UC21
+    usecase "View Favorite Barber" as UC22
+}
+
+rectangle "Barber Use Cases" {
+    usecase "Create Account" as UC11
+    usecase "Login" as UC12
+    usecase "View Upcoming Appointments" as UC13
+    usecase "View Availability" as UC14
+    usecase "Modify Availability" as UC15
+    usecase "Delete Availability" as UC16
+    usecase "Mark Appointment Complete" as UC17
+    usecase "Cancel Appointment" as UC18
+    usecase "View Rating" as UC23
+    usecase "Add Availability" as UC24
+}
+
+Client - -> UC1
+Client - -> UC2
+Client - -> UC3
+Client - -> UC4
+Client - -> UC20
+Client - -> UC19
+Client - -> UC22
+
+Barber - -> UC11
+Barber - -> UC12
+Barber - -> UC13
+Barber - -> UC14
+Barber - -> UC23
+Barber - -> UC24
+
+UC5 ..> UC4 : <<extend>>
+UC21 ..> UC4 : <<extend>>
+UC15 ..> UC14 : <<extend>>
+UC16 ..> UC14 : <<extend>>
+UC17 ..> UC13 : <<extend>>
+UC18 ..> UC13 : <<extend>>
+UC8 ..> UC20 : <<extend>>
+UC9 ..> UC20 : <<extend>>
+UC3 ..> UC22 : <<extend>>
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
